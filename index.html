@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CURSOS ★ MadridPatina — Estadísticas de la sección</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --rojo:#C8291B; --rojo-osc:#9C1B10; --negro:#181310; --crema:#EBE1C8; --papel:#F2EAD6;
+  --tinta:#241D17; --tan:#A98A5B; --oliva:#6B6246;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--crema);
+  background-image:repeating-linear-gradient(0deg,rgba(24,19,16,.025) 0 1px,transparent 1px 3px);
+  color:var(--tinta); font-family:'Barlow',sans-serif; font-size:16px; line-height:1.45;
+}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.star{color:var(--rojo)}
+.star.w{color:#fff}
+
+/* ============ MASTHEAD ============ */
+header{background:var(--rojo);color:#fff;border-bottom:10px solid var(--negro);position:relative;overflow:hidden}
+header::after{content:"";position:absolute;right:-60px;top:-60px;width:340px;height:340px;border:26px solid rgba(0,0,0,.14);border-radius:50%}
+.mast-top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:3px solid rgba(255,255,255,.4);font-family:'Oswald';text-transform:uppercase;letter-spacing:.18em;font-size:.78rem}
+.masthead{padding:34px 0 8px}
+.masthead h1{font-family:'Archivo Black';font-size:clamp(3.4rem,11vw,8.5rem);line-height:.88;text-transform:uppercase;letter-spacing:-.015em}
+.masthead h1 .knock{color:var(--negro)}
+.mast-sub{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:20px 0 26px;font-family:'Oswald';text-transform:uppercase}
+.chip{background:var(--negro);color:#fff;padding:6px 14px;font-size:.85rem;letter-spacing:.12em}
+.chip.inv{background:#fff;color:var(--rojo)}
+.mast-claim{font-family:'Barlow Condensed';font-weight:500;font-size:1.15rem;color:#ffe9d8;max-width:640px}
+/* sumario numérico */
+.sumario{background:var(--negro);color:#fff;padding:26px 0 30px}
+.sumario .lbl{font-family:'Oswald';letter-spacing:.25em;font-size:.75rem;color:var(--crema);text-transform:uppercase;margin-bottom:14px;display:block}
+.sum-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:2px;background:#3a322b}
+.sum-cell{background:var(--negro);padding:16px 14px;text-align:center}
+.sum-cell b{display:block;font-family:'Archivo Black';font-size:clamp(1.8rem,3.4vw,2.9rem);color:var(--rojo);line-height:1}
+.sum-cell.alt b{color:#fff}
+.sum-cell span{font-family:'Oswald';font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#c9bda6}
+
+/* ============ NAV SUMARIO ============ */
+nav{background:var(--papel);border-bottom:4px solid var(--negro);position:sticky;top:0;z-index:50}
+nav .wrap{display:flex;flex-wrap:wrap;gap:0}
+nav a{font-family:'Oswald';text-transform:uppercase;font-size:.8rem;letter-spacing:.1em;color:var(--tinta);text-decoration:none;padding:12px 14px;border-right:1px solid rgba(24,19,16,.2);display:flex;gap:8px;align-items:center}
+nav a b{color:var(--rojo);font-family:'Archivo Black'}
+nav a:hover{background:var(--negro);color:#fff}
+
+/* ============ SECCIONES ============ */
+section{padding:58px 0 30px}
+.sec-head{display:flex;align-items:baseline;gap:18px;border-bottom:6px solid var(--negro);padding-bottom:10px;margin-bottom:8px}
+.sec-num{font-family:'Archivo Black';font-size:3.2rem;color:var(--rojo);line-height:1}
+.sec-head h2{font-family:'Archivo Black';text-transform:uppercase;font-size:clamp(1.5rem,4vw,2.6rem);letter-spacing:-.01em}
+.sec-kicker{font-family:'Oswald';text-transform:uppercase;letter-spacing:.2em;font-size:.78rem;color:var(--rojo);margin-bottom:6px}
+.sec-intro{font-family:'Barlow Condensed';font-size:1.12rem;max-width:820px;margin:14px 0 22px;font-weight:500}
+.sec-intro strong{color:var(--rojo)}
+
+/* tarjetas y paneles */
+.panel{background:var(--papel);border:3px solid var(--negro);box-shadow:8px 8px 0 var(--negro);padding:20px;margin-bottom:26px}
+.panel h3{font-family:'Oswald';text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;border-bottom:3px solid var(--rojo);display:inline-block;padding-bottom:4px;margin-bottom:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+@media(max-width:900px){.grid2,.grid3{grid-template-columns:1fr}}
+.chart-box{position:relative;height:340px}
+.chart-box.tall{height:480px}
+.chart-box.short{height:260px}
+.foot-note{font-family:'Barlow Condensed';font-size:.92rem;color:#5c5245;margin-top:10px}
+
+/* botones */
+.btn-row{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px}
+.btn{font-family:'Oswald';text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;background:var(--papel);
+  border:2px solid var(--negro);padding:7px 14px;cursor:pointer;color:var(--tinta);transition:all .12s}
+.btn:hover{background:var(--negro);color:#fff}
+.btn.on{background:var(--rojo);border-color:var(--rojo);color:#fff;box-shadow:3px 3px 0 var(--negro)}
+.btn.chip-t{font-size:.72rem;padding:5px 10px}
+
+/* ranking editorial */
+.rank{counter-reset:rk}
+.rank li{list-style:none;display:flex;gap:14px;align-items:baseline;padding:9px 4px;border-bottom:2px dotted rgba(24,19,16,.35)}
+.rank li::before{counter-increment:rk;content:counter(rk,decimal-leading-zero);font-family:'Archivo Black';color:var(--rojo);font-size:1.25rem;min-width:2.1rem}
+.rank .r-t{font-family:'Barlow Condensed';font-weight:600;font-size:1.02rem;flex:1}
+.rank .r-v{font-family:'Archivo Black';font-size:1.02rem}
+.rank .r-m{font-family:'Oswald';font-size:.7rem;letter-spacing:.08em;color:#6b6046;text-transform:uppercase}
+
+/* perfiles */
+.perfil-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:18px}
+.pcard{border:3px solid var(--negro);background:var(--papel);box-shadow:6px 6px 0 var(--negro);display:flex;flex-direction:column}
+.pcard .ph{padding:10px 14px;font-family:'Oswald';text-transform:uppercase;letter-spacing:.06em;font-size:1rem;color:#fff;display:flex;justify-content:space-between;align-items:center}
+.pcard.pos .ph{background:#1e6b34}
+.pcard.neg .ph{background:var(--rojo)}
+.pcard.man .ph{background:var(--negro)}
+.pcard.nd .ph{background:#8a7a5c}
+.pcard .pb{padding:12px 14px;font-family:'Barlow Condensed';font-size:.98rem}
+.pcard .pb table{width:100%;border-collapse:collapse;margin-top:6px}
+.pcard .pb td{padding:2px 0;font-size:.92rem}
+.pcard .pb td:last-child{text-align:right;font-weight:600}
+.badge{font-family:'Archivo Black';font-size:.68rem;letter-spacing:.1em;padding:3px 8px;background:rgba(0,0,0,.25)}
+.leyenda{display:flex;gap:14px;flex-wrap:wrap;margin:8px 0 20px;font-family:'Oswald';font-size:.75rem;text-transform:uppercase;letter-spacing:.08em}
+.leyenda span{display:flex;align-items:center;gap:6px}
+.dot{width:14px;height:14px;display:inline-block;border:2px solid var(--negro)}
+
+/* recomendaciones */
+.reco{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.reco .r-item{background:var(--negro);color:var(--crema);padding:20px;border-left:10px solid var(--rojo)}
+.reco .r-item h4{font-family:'Oswald';text-transform:uppercase;color:#fff;letter-spacing:.06em;margin-bottom:8px;font-size:1rem}
+.reco .r-item h4 b{color:var(--rojo);font-family:'Archivo Black';margin-right:6px}
+.reco .r-item p{font-family:'Barlow Condensed';font-size:.98rem;color:#d8cdb4}
+
+/* tabla */
+.tbl-controls{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+.tbl-controls input,.tbl-controls select{font-family:'Barlow Condensed';font-size:.95rem;border:2px solid var(--negro);background:#fff;padding:8px 10px;min-width:150px}
+.tbl-scroll{overflow:auto;max-height:640px;border:3px solid var(--negro)}
+table.datos{width:100%;border-collapse:collapse;font-family:'Barlow Condensed';font-size:.9rem;background:#fff}
+table.datos th{position:sticky;top:0;background:var(--negro);color:#fff;font-family:'Oswald';font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:8px 8px;text-align:left;cursor:pointer;white-space:nowrap}
+table.datos th:hover{background:var(--rojo)}
+table.datos td{padding:5px 8px;border-bottom:1px solid #ddd2b8;white-space:nowrap}
+table.datos tr:nth-child(even) td{background:#faf5e6}
+table.datos td.num{text-align:right;font-variant-numeric:tabular-nums}
+.ocup-pill{display:inline-block;min-width:52px;text-align:center;padding:1px 6px;font-weight:600;color:#fff}
+
+/* notas / footer */
+.notas p{max-width:860px;margin-bottom:10px;font-family:'Barlow Condensed';font-size:1rem}
+footer{background:var(--rojo);color:#fff;border-top:10px solid var(--negro);margin-top:60px;padding:30px 0;font-family:'Oswald';text-transform:uppercase;letter-spacing:.15em;font-size:.75rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.divider{height:26px;background:repeating-linear-gradient(90deg,var(--negro) 0 26px,var(--rojo) 26px 52px,var(--crema) 52px 60px);border-top:3px solid var(--negro);border-bottom:3px solid var(--negro)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap mast-top">
+    <span>MadridPatina ★ Club de patinaje</span>
+    <span>Sección de cursos · Informe de datos</span>
+    <span>Ed. 09 · Julio 2026</span>
+  </div>
+  <div class="wrap masthead">
+    <h1>CUR<span class="knock">SOS</span><span class="star w">★</span></h1>
+    <div class="mast-sub">
+      <span class="chip">2012 → 2026</span>
+      <span class="chip inv">14 temporadas registradas</span>
+      <span class="chip">Histórico completo desde 2024</span>
+    </div>
+    <p class="mast-claim">Todos los datos de la sección de cursos del club: alumnos, ocupación, zonas,
+    monitores, precios y evolución por temporada. Con comparador por tipo de curso y perfiles de cara a la temporada 2026-27.</p>
+  </div>
+  <div class="sumario">
+    <div class="wrap">
+      <span class="lbl">★ Sumario en cifras — histórico disponible</span>
+      <div class="sum-grid" id="sumGrid"></div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#s1"><b>01</b> Temporadas</a>
+    <a href="#s2"><b>02</b> Tipos de curso</a>
+    <a href="#s3"><b>03</b> Comparador</a>
+    <a href="#s4"><b>04</b> Zonas &amp; monitores</a>
+    <a href="#s5"><b>05</b> Calendario</a>
+    <a href="#s6"><b>06</b> Precios</a>
+    <a href="#s7"><b>07</b> Perfiles 26-27</a>
+    <a href="#s8"><b>08</b> Recomendaciones</a>
+    <a href="#s9"><b>09</b> Tabla completa</a>
+    <a href="#s10"><b>10</b> Notas</a>
+  </div>
+</nav>
+
+<!-- 01 TEMPORADAS -->
+<section id="s1">
+  <div class="wrap">
+    <div class="sec-kicker">★ La sección, temporada a temporada (septiembre → julio)</div>
+    <div class="sec-head"><span class="sec-num">01</span><h2>Temporadas</h2></div>
+    <p class="sec-intro">El gestor solo conserva histórico completo desde enero de 2024, así que la
+    lectura fiable empieza en <strong>2023-24</strong>. La tendencia es clara: <strong>menos cursos pero más llenos</strong>,
+    con la ocupación subiendo del 39,6% al 50,1% y el peso de los socios creciendo cada temporada.</p>
+    <div class="grid2">
+      <div class="panel"><h3>Alistados por temporada ★ socios vs no socios</h3><div class="chart-box"><canvas id="chTempAlistados"></canvas></div></div>
+      <div class="panel"><h3>Ocupación y nº de cursos</h3><div class="chart-box"><canvas id="chTempOcup"></canvas></div>
+      <p class="foot-note">★ 2025-26 incluye cursos de julio aún abiertos: sus cifras finales pueden subir.</p></div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><h3>Ingresos estimados por temporada (€)</h3><div class="chart-box short"><canvas id="chTempIngresos"></canvas></div>
+      <p class="foot-note">Estimación: alistados × tarifa publicada (1er curso). No incluye descuentos por repetición.</p></div>
+      <div class="panel"><h3>Media de alumnos por curso</h3><div class="chart-box short"><canvas id="chTempMedia"></canvas></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 02 TIPOS -->
+<section id="s2">
+  <div class="wrap">
+    <div class="sec-kicker">★ Iniciación, niños, disciplinas y refuerzo</div>
+    <div class="sec-head"><span class="sec-num">02</span><h2>Tipos de curso</h2></div>
+    <p class="sec-intro">Los 693 cursos, separados en las categorías de la sección. Cambia la métrica y
+    filtra por temporada con los botones.</p>
+    <div class="panel">
+      <h3>Ranking por tipo de curso</h3>
+      <div class="btn-row" id="tipoMetric"></div>
+      <div class="btn-row" id="tipoSeason"></div>
+      <div class="chart-box tall"><canvas id="chTipos"></canvas></div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><h3>¿Quién se apunta? ★ % socios vs no socios por tipo</h3><div class="chart-box tall"><canvas id="chTiposSocios"></canvas></div>
+      <p class="foot-note">Los cursos de niños se llenan casi solo con no socios; las disciplinas técnicas, con socios. Ahí está el embudo de captación.</p></div>
+      <div class="panel">
+        <h3>Top 10 ★ cursos con mayor ocupación (mín. 8 en el histórico)</h3>
+        <ol class="rank" id="rankTipos"></ol>
+        <h3 style="margin-top:22px">Overbooking ★ cursos que acabaron con plazas negativas</h3>
+        <ol class="rank" id="rankOver"></ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 03 COMPARADOR -->
+<section id="s3">
+  <div class="wrap">
+    <div class="sec-kicker">★ Enfrenta tipos de curso entre temporadas</div>
+    <div class="sec-head"><span class="sec-num">03</span><h2>Comparador</h2></div>
+    <p class="sec-intro">Elige métrica y activa los tipos que quieras enfrentar. Solo se comparan las
+    tres temporadas con datos completos (2023-24 → 2025-26).</p>
+    <div class="panel">
+      <div class="btn-row" id="compMetric"></div>
+      <div class="btn-row" id="compTipos"></div>
+      <div class="chart-box tall"><canvas id="chComp"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 04 ZONAS Y MONITORES -->
+<section id="s4">
+  <div class="wrap">
+    <div class="sec-kicker">★ Dónde y con quién</div>
+    <div class="sec-head"><span class="sec-num">04</span><h2>Zonas &amp; monitores</h2></div>
+    <div class="btn-row" id="zonaSeason"></div>
+    <div class="grid2">
+      <div class="panel"><h3>Alistados y ocupación por zona</h3><div class="chart-box tall"><canvas id="chZonas"></canvas></div></div>
+      <div class="panel"><h3>Monitores ★ cursos impartidos y ocupación</h3><div class="chart-box tall"><canvas id="chMonitores"></canvas></div>
+      <p class="foot-note">Cursos compartidos (ej. «Iciar1-Jorge23») cuentan para ambos monitores. Nombres normalizados.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 05 CALENDARIO -->
+<section id="s5">
+  <div class="wrap">
+    <div class="sec-kicker">★ Cuándo funciona la sección</div>
+    <div class="sec-head"><span class="sec-num">05</span><h2>Calendario</h2></div>
+    <div class="grid3">
+      <div class="panel"><h3>Por día de inicio</h3><div class="chart-box short"><canvas id="chDias"></canvas></div></div>
+      <div class="panel"><h3>Mañana vs tarde</h3><div class="chart-box short"><canvas id="chFranja"></canvas></div></div>
+      <div class="panel"><h3>Duración de los cursos</h3><div class="chart-box short"><canvas id="chDuracion"></canvas></div></div>
+    </div>
+    <div class="panel"><h3>Estacionalidad ★ cursos y ocupación por mes (histórico completo 2024 → 2026)</h3><div class="chart-box"><canvas id="chMeses"></canvas></div>
+    <p class="foot-note">Agosto sin actividad: la temporada va de septiembre a julio.</p></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 06 PRECIOS -->
+<section id="s6">
+  <div class="wrap">
+    <div class="sec-kicker">★ Tarifas socio / no socio</div>
+    <div class="sec-head"><span class="sec-num">06</span><h2>Precios</h2></div>
+    <div class="grid2">
+      <div class="panel"><h3>Precio medio por temporada (€)</h3><div class="chart-box"><canvas id="chPrecios"></canvas></div>
+      <p class="foot-note">Media simple de la tarifa publicada por curso (tarifa "1er curso" para no socios).</p></div>
+      <div class="panel"><h3>Precio por hora de curso (€/h, 2025-26)</h3><div class="chart-box"><canvas id="chPrecioHora"></canvas></div>
+      <p class="foot-note">Solo cursos de 2025-26 con duración conocida. El descuento medio de socio ronda el 25-30%.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 07 PERFILES -->
+<section id="s7">
+  <div class="wrap">
+    <div class="sec-kicker">★ ¿Qué esperar de cada tipo en 2026-27?</div>
+    <div class="sec-head"><span class="sec-num">07</span><h2>Perfiles 26-27</h2></div>
+    <p class="sec-intro">Comparando <strong>2025-26 contra 2024-25</strong> (ocupación y volumen de alumnos), cada tipo
+    de curso queda clasificado como <strong>positivo</strong>, <strong>mantenido</strong> o <strong>negativo</strong> de cara a la próxima temporada.</p>
+    <div class="leyenda">
+      <span><i class="dot" style="background:#1e6b34"></i> Positivo: crece</span>
+      <span><i class="dot" style="background:var(--negro)"></i> Mantenido: estable</span>
+      <span><i class="dot" style="background:var(--rojo)"></i> Negativo: cae</span>
+      <span><i class="dot" style="background:#8a7a5c"></i> Datos insuficientes</span>
+    </div>
+    <div class="perfil-grid" id="perfiles"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 08 RECOMENDACIONES -->
+<section id="s8">
+  <div class="wrap">
+    <div class="sec-kicker">★ Qué hacer con lo que dicen los datos</div>
+    <div class="sec-head"><span class="sec-num">08</span><h2>Recomendaciones</h2></div>
+    <h3 style="font-family:'Oswald';text-transform:uppercase;margin:18px 0 14px;letter-spacing:.06em">A · Para la temporada 2026-27</h3>
+    <div class="reco" id="recoTemporada"></div>
+    <h3 style="font-family:'Oswald';text-transform:uppercase;margin:28px 0 14px;letter-spacing:.06em">B · Para mejorar los datos</h3>
+    <div class="reco" id="recoDatos"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- 09 TABLA -->
+<section id="s9">
+  <div class="wrap">
+    <div class="sec-kicker">★ Los 693 cursos, uno a uno</div>
+    <div class="sec-head"><span class="sec-num">09</span><h2>Tabla completa</h2></div>
+    <div class="tbl-controls">
+      <input type="text" id="fTexto" placeholder="Buscar curso, monitor…">
+      <select id="fTemp"></select>
+      <select id="fTipo"></select>
+      <select id="fZona"></select>
+      <span class="btn" id="fReset">Limpiar</span>
+      <span style="font-family:'Oswald';font-size:.8rem;align-self:center;letter-spacing:.08em" id="fCount"></span>
+    </div>
+    <div class="tbl-scroll">
+      <table class="datos" id="tabla">
+        <thead><tr>
+          <th data-k="num">Nº</th><th data-k="f">Fecha</th><th data-k="n">Curso</th><th data-k="tipo">Tipo</th>
+          <th data-k="d">Días</th><th data-k="h">Horas</th><th data-k="hi">Inicio</th><th data-k="z">Zona</th>
+          <th data-k="monRaw">Monitor/a</th><th data-k="ps">€ Socio</th><th data-k="pn">€ No socio</th>
+          <th data-k="pt">Plazas</th><th data-k="pl">Libres</th><th data-k="at">Alistados</th>
+          <th data-k="as">Socios</th><th data-k="ans">No socios</th><th data-k="oc">Ocup.</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="foot-note">Clic en las cabeceras para ordenar. Datos también disponibles en <a href="cursos.csv" style="color:var(--rojo);font-weight:600">cursos.csv</a>.</p>
+  </div>
+</section>
+
+<!-- 10 NOTAS -->
+<section id="s10">
+  <div class="wrap">
+    <div class="sec-kicker">★ Metodología</div>
+    <div class="sec-head"><span class="sec-num">10</span><h2>Notas</h2></div>
+    <div class="notas">
+      <p>★ Datos extraídos del gestor de contenidos de madridpatina.com (sección Cursos) el 09/07/2026: listado completo (9 páginas) y ficha individual de cada curso para las tarifas.</p>
+      <p>★ El gestor conserva 693 cursos: histórico completo desde enero de 2024 y registros sueltos de 2012, 2013, 2016 y jun-dic 2023. Las temporadas anteriores a 2023-24 son parciales y se muestran solo como referencia.</p>
+      <p>★ Temporada = septiembre a julio. «2025-26» va de sept. 2025 a julio 2026. En el momento de la extracción quedaban cursos de julio 2026 abiertos: su ocupación final puede subir.</p>
+      <p>★ Duración y hora de inicio se extraen del título («4h-3d | 19:30h» = 4 horas totales en 3 días desde las 19:30). Los 11 registros más antiguos no siguen este formato y quedan sin duración.</p>
+      <p>★ Monitores: «Iciar1-Jorge23» significa que Iciar impartió el día 1 y Jorge los días 2 y 3; ambos puntúan. Nombres normalizados (DavidR → David Rivas). Nombres ambiguos («Irene», «Marta») se mantienen tal cual.</p>
+      <p>★ Ocupación = alistados / plazas. Existen cursos con plazas libres negativas (se admitió más gente que plazas publicadas).</p>
+      <p>★ Ingresos estimados = alistados socios × tarifa socio + alistados no socios × tarifa "1er curso". No refleja descuentos por repetición (-5€) ni devoluciones.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>★ MadridPatina — Sección de cursos</span>
+    <span>693 cursos · 3.522 alistados · 2012-2026</span>
+    <span>Informe generado el 09.07.2026</span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+/* ============================================================
+   CURSOS MADRIDPATINA — lógica de la web
+   ============================================================ */
+const C = window.CURSOS;
+const ROJO='#C8291B', NEGRO='#181310', CREMA='#EBE1C8', PAPEL='#F2EAD6', TAN='#A98A5B', OLIVA='#6B6246', VERDE='#1e6b34';
+const PALETA=[ROJO,NEGRO,TAN,'#7A1104',OLIVA,'#D96C33','#4A3F33','#8C2B1E','#B49E6C','#2F2A22','#E0A800','#5B0E06','#96876A','#3E5641'];
+const TEMPS_MAIN=['2023-24','2024-25','2025-26'];
+const TIPOS_ORDEN=['Iniciación Adultos Nivel 0','Iniciación Adultos Nivel 1','Iniciación Adultos Nivel 2',
+ 'Niños Iniciación','Niños Básico 1','Niños Básico 2','Niños Disciplinas',
+ 'Urbano','Freestyle Slalom','Velocidad','Hockey','Cuestas','Rollerdance','Refuerzo Adultos','Otros'];
+const ing = c => c.as*c.ps + c.ans*c.pn;
+const sum = (arr,f) => arr.reduce((a,c)=>a+f(c),0);
+const agg = rows => ({n:rows.length, pt:sum(rows,c=>c.pt), at:sum(rows,c=>c.at), as:sum(rows,c=>c.as),
+  ans:sum(rows,c=>c.ans), pl:sum(rows,c=>c.pl), ing:sum(rows,ing),
+  oc:sum(rows,c=>c.pt)>0? sum(rows,c=>c.at)/sum(rows,c=>c.pt) : 0});
+const fmtPct = v => (v*100).toFixed(1).replace('.',',')+'%';
+const fmtEur = v => Math.round(v).toLocaleString('es-ES')+' €';
+
+Chart.defaults.font.family="'Barlow Condensed',sans-serif";
+Chart.defaults.font.size=13;
+Chart.defaults.color=NEGRO;
+Chart.defaults.plugins.legend.labels.boxWidth=14;
+Chart.defaults.plugins.legend.labels.font={family:"'Oswald'",size:11};
+Chart.defaults.plugins.tooltip.backgroundColor=NEGRO;
+Chart.defaults.plugins.tooltip.titleFont={family:"'Oswald'",size:13};
+
+/* ---------- SUMARIO ---------- */
+const A=agg(C);
+const nZonas=new Set(C.map(c=>c.z)).size, nMon=new Set(C.flatMap(c=>c.mon)).size;
+const t2526=agg(C.filter(c=>c.t==='2025-26'));
+document.getElementById('sumGrid').innerHTML=[
+ [A.n,'cursos'],[A.at.toLocaleString('es-ES'),'alistados'],[fmtPct(A.at/A.pt),'ocupación media'],
+ [A.as.toLocaleString('es-ES'),'socios','alt'],[A.ans.toLocaleString('es-ES'),'no socios','alt'],
+ [nZonas,'zonas'],[nMon,'monitores'],[fmtEur(A.ing),'ingresos est.']
+].map(x=>`<div class="sum-cell ${x[2]||''}"><b>${x[0]}</b><span>${x[1]}</span></div>`).join('');
+
+/* ---------- 01 TEMPORADAS ---------- */
+const temps=[...new Set(C.map(c=>c.t))].sort();
+const tempsCompletas=temps.filter(t=>TEMPS_MAIN.includes(t));
+const tAgg=Object.fromEntries(temps.map(t=>[t,agg(C.filter(c=>c.t===t))]));
+const lblTemp=tempsCompletas.map(t=>t==='2025-26'?t+' ★':t);
+
+new Chart(chTempAlistados,{type:'bar',data:{labels:lblTemp,datasets:[
+ {label:'Socios',data:tempsCompletas.map(t=>tAgg[t].as),backgroundColor:ROJO,stack:'a'},
+ {label:'No socios',data:tempsCompletas.map(t=>tAgg[t].ans),backgroundColor:NEGRO,stack:'a'}]},
+ options:{maintainAspectRatio:false,scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.08)'}}}}});
+
+new Chart(chTempOcup,{data:{labels:lblTemp,datasets:[
+ {type:'bar',label:'Nº cursos',data:tempsCompletas.map(t=>tAgg[t].n),backgroundColor:TAN,yAxisID:'y'},
+ {type:'line',label:'% ocupación',data:tempsCompletas.map(t=>tAgg[t].oc*100),borderColor:ROJO,backgroundColor:ROJO,
+  borderWidth:4,pointRadius:6,pointStyle:'rectRot',yAxisID:'y2'}]},
+ options:{maintainAspectRatio:false,scales:{y:{position:'left',grid:{display:false}},
+  y2:{position:'right',min:0,max:60,ticks:{callback:v=>v+'%'},grid:{color:'rgba(0,0,0,.08)'}},x:{grid:{display:false}}}}});
+
+new Chart(chTempIngresos,{type:'bar',data:{labels:lblTemp,datasets:[{label:'Ingresos estimados',
+ data:tempsCompletas.map(t=>Math.round(tAgg[t].ing)),backgroundColor:[TAN,NEGRO,ROJO]}]},
+ options:{maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmtEur(c.raw)}}},
+ scales:{x:{grid:{display:false}},y:{ticks:{callback:v=>(v/1000)+'k€'},grid:{color:'rgba(0,0,0,.08)'}}}}});
+
+new Chart(chTempMedia,{type:'bar',data:{labels:lblTemp,datasets:[{label:'Alumnos por curso',
+ data:tempsCompletas.map(t=>+(tAgg[t].at/tAgg[t].n).toFixed(2)),backgroundColor:[TAN,NEGRO,ROJO]}]},
+ options:{maintainAspectRatio:false,plugins:{legend:{display:false}},
+ scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.08)'}}}}});
+
+/* ---------- 02 TIPOS ---------- */
+const METRICAS={
+ 'Nº cursos':{f:a=>a.n,fmt:v=>v},
+ 'Alistados':{f:a=>a.at,fmt:v=>v},
+ '% Ocupación':{f:a=>+(a.oc*100).toFixed(1),fmt:v=>v+'%'},
+ 'Alumnos/curso':{f:a=>a.n?+(a.at/a.n).toFixed(2):0,fmt:v=>v},
+ 'Ingresos (€)':{f:a=>Math.round(a.ing),fmt:v=>fmtEur(v)}
+};
+let tipoMetric='Alistados', tipoSeason='Todas';
+const tipoAgg=(t,season)=>agg(C.filter(c=>c.tipo===t&&(season==='Todas'||c.t===season)));
+let chT=null;
+function drawTipos(){
+  const m=METRICAS[tipoMetric];
+  const data=TIPOS_ORDEN.map(t=>({t,v:m.f(tipoAgg(t,tipoSeason))})).filter(d=>d.v>0).sort((a,b)=>b.v-a.v);
+  if(chT)chT.destroy();
+  chT=new Chart(chTipos,{type:'bar',data:{labels:data.map(d=>d.t),datasets:[{label:tipoMetric,
+   data:data.map(d=>d.v),backgroundColor:data.map((d,i)=>i===0?ROJO:(d.t.startsWith('Niños')?TAN:NEGRO))}]},
+   options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},
+    tooltip:{callbacks:{label:c=>m.fmt(c.raw)}}},
+    scales:{x:{grid:{color:'rgba(0,0,0,.08)'}},y:{grid:{display:false},ticks:{font:{family:"'Oswald'",size:12}}}}}});
+}
+function btnRow(el,items,cur,cb){
+  const box=document.getElementById(el);
+  box.innerHTML=items.map(i=>`<span class="btn ${i===cur?'on':''}" data-v="${i}">${i}</span>`).join('');
+  box.onclick=e=>{const v=e.target.dataset.v;if(!v)return;
+    box.querySelectorAll('.btn').forEach(b=>b.classList.toggle('on',b.dataset.v===v));cb(v);};
+}
+btnRow('tipoMetric',Object.keys(METRICAS),tipoMetric,v=>{tipoMetric=v;drawTipos();});
+btnRow('tipoSeason',['Todas',...tempsCompletas],tipoSeason,v=>{tipoSeason=v;drawTipos();});
+drawTipos();
+
+/* % socios por tipo (stacked 100%) */
+const socData=TIPOS_ORDEN.map(t=>{const a=tipoAgg(t,'Todas');return {t,ps:a.at?a.as/a.at*100:0,pn:a.at?a.ans/a.at*100:0,at:a.at};})
+ .filter(d=>d.at>0).sort((a,b)=>b.ps-a.ps);
+new Chart(chTiposSocios,{type:'bar',data:{labels:socData.map(d=>d.t),datasets:[
+ {label:'% socios',data:socData.map(d=>+d.ps.toFixed(1)),backgroundColor:ROJO,stack:'s'},
+ {label:'% no socios',data:socData.map(d=>+d.pn.toFixed(1)),backgroundColor:NEGRO,stack:'s'}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,
+  plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.raw+'%'}}},
+  scales:{x:{max:100,stacked:true,ticks:{callback:v=>v+'%'},grid:{color:'rgba(0,0,0,.08)'}},
+   y:{stacked:true,grid:{display:false},ticks:{font:{family:"'Oswald'",size:12}}}}}});
+
+/* rankings editoriales */
+const nombreAgg={};
+C.forEach(c=>{const k=c.n;(nombreAgg[k]=nombreAgg[k]||[]).push(c);});
+const rank=Object.entries(nombreAgg).map(([n,rows])=>({n,a:agg(rows)})).filter(d=>d.a.n>=8)
+ .sort((a,b)=>b.a.oc-a.a.oc).slice(0,10);
+document.getElementById('rankTipos').innerHTML=rank.map(d=>
+ `<li><span class="r-t">${d.n}</span><span class="r-m">${d.a.n} ediciones</span><span class="r-v">${fmtPct(d.a.oc)}</span></li>`).join('');
+const over=C.filter(c=>c.pl<0).sort((a,b)=>a.pl-b.pl).slice(0,6);
+document.getElementById('rankOver').innerHTML=over.length?over.map(c=>
+ `<li><span class="r-t">${c.n} · ${c.f}</span><span class="r-m">${c.z}</span><span class="r-v">${c.pl}</span></li>`).join('')
+ :'<li><span class="r-t">Sin casos</span></li>';
+
+/* ---------- 03 COMPARADOR ---------- */
+let compMetric='% Ocupación';
+let compSel=new Set(['Iniciación Adultos Nivel 0','Niños Iniciación','Rollerdance','Urbano']);
+let chC=null;
+function drawComp(){
+  const m=METRICAS[compMetric];
+  const ds=[...compSel].map((t,i)=>({label:t,
+    data:TEMPS_MAIN.map(s=>{const a=tipoAgg(t,s);return a.n?m.f(a):null;}),
+    borderColor:PALETA[TIPOS_ORDEN.indexOf(t)%PALETA.length],
+    backgroundColor:PALETA[TIPOS_ORDEN.indexOf(t)%PALETA.length],
+    borderWidth:4,pointRadius:6,pointStyle:['rectRot','circle','rect','triangle'][i%4],spanGaps:true,tension:0}));
+  if(chC)chC.destroy();
+  chC=new Chart(chComp,{type:'line',data:{labels:TEMPS_MAIN.map(t=>t==='2025-26'?t+' ★':t),datasets:ds},
+   options:{maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+m.fmt(c.raw)}}},
+    scales:{y:{grid:{color:'rgba(0,0,0,.08)'},ticks:compMetric==='% Ocupación'?{callback:v=>v+'%'}:{}},x:{grid:{display:false}}}}});
+}
+btnRow('compMetric',Object.keys(METRICAS),compMetric,v=>{compMetric=v;drawComp();});
+const boxT=document.getElementById('compTipos');
+boxT.innerHTML=TIPOS_ORDEN.map(t=>`<span class="btn chip-t ${compSel.has(t)?'on':''}" data-v="${t}">${t}</span>`).join('');
+boxT.onclick=e=>{const v=e.target.dataset.v;if(!v)return;
+  compSel.has(v)?compSel.delete(v):compSel.add(v);
+  e.target.classList.toggle('on');drawComp();};
+drawComp();
+
+/* ---------- 04 ZONAS Y MONITORES ---------- */
+let zonaSeason='Todas', chZ=null, chM=null;
+function drawZonas(){
+  const rows=C.filter(c=>zonaSeason==='Todas'||c.t===zonaSeason);
+  const zs={};rows.forEach(c=>{(zs[c.z]=zs[c.z]||[]).push(c);});
+  const zd=Object.entries(zs).map(([z,r])=>({z,a:agg(r)})).sort((a,b)=>b.a.at-a.a.at);
+  if(chZ)chZ.destroy();
+  chZ=new Chart(chZonas,{data:{labels:zd.map(d=>d.z),datasets:[
+   {type:'bar',label:'Alistados',data:zd.map(d=>d.a.at),backgroundColor:NEGRO,xAxisID:'x'},
+   {type:'bar',label:'% ocupación',data:zd.map(d=>+(d.a.oc*100).toFixed(1)),backgroundColor:ROJO,xAxisID:'x2'}]},
+   options:{indexAxis:'y',maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+(c.datasetIndex?c.raw+'%':c.raw)}}},
+    scales:{x:{position:'bottom',grid:{color:'rgba(0,0,0,.08)'}},
+     x2:{position:'top',min:0,max:100,ticks:{callback:v=>v+'%'},grid:{display:false}},
+     y:{grid:{display:false},ticks:{font:{family:"'Oswald'",size:11}}}}}});
+  const ms={};rows.forEach(c=>c.mon.forEach(m=>{(ms[m]=ms[m]||[]).push(c);}));
+  const md=Object.entries(ms).filter(([m])=>m!=='Sin asignar').map(([m,r])=>({m,a:agg(r)}))
+   .sort((a,b)=>b.a.n-a.a.n).slice(0,14);
+  if(chM)chM.destroy();
+  chM=new Chart(chMonitores,{data:{labels:md.map(d=>d.m),datasets:[
+   {type:'bar',label:'Cursos impartidos',data:md.map(d=>d.a.n),backgroundColor:TAN,xAxisID:'x'},
+   {type:'bar',label:'% ocupación',data:md.map(d=>+(d.a.oc*100).toFixed(1)),backgroundColor:ROJO,xAxisID:'x2'}]},
+   options:{indexAxis:'y',maintainAspectRatio:false,
+    plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+(c.datasetIndex?c.raw+'%':c.raw)}}},
+    scales:{x:{position:'bottom',grid:{color:'rgba(0,0,0,.08)'}},
+     x2:{position:'top',min:0,max:100,ticks:{callback:v=>v+'%'},grid:{display:false}},
+     y:{grid:{display:false},ticks:{font:{family:"'Oswald'",size:11}}}}}});
+}
+btnRow('zonaSeason',['Todas',...tempsCompletas],zonaSeason,v=>{zonaSeason=v;drawZonas();});
+drawZonas();
+
+/* ---------- 05 CALENDARIO ---------- */
+const DIAS=['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'];
+const dAgg=DIAS.map(d=>agg(C.filter(c=>c.ds===d)));
+new Chart(chDias,{data:{labels:DIAS.map(d=>d.slice(0,3).toUpperCase()),datasets:[
+ {type:'bar',label:'Cursos',data:dAgg.map(a=>a.n),backgroundColor:NEGRO},
+ {type:'line',label:'% ocup.',data:dAgg.map(a=>+(a.oc*100).toFixed(1)),borderColor:ROJO,borderWidth:3,pointRadius:4,yAxisID:'y2'}]},
+ options:{maintainAspectRatio:false,scales:{y:{grid:{display:false}},
+  y2:{position:'right',min:0,max:70,ticks:{callback:v=>v+'%'},grid:{color:'rgba(0,0,0,.08)'}},x:{grid:{display:false}}}}});
+
+const frA=agg(C.filter(c=>c.fr==='Mañana')), frT=agg(C.filter(c=>c.fr==='Tarde'));
+new Chart(chFranja,{type:'doughnut',data:{labels:[`Mañana (${fmtPct(frA.oc)} ocup.)`,`Tarde (${fmtPct(frT.oc)} ocup.)`],
+ datasets:[{data:[frA.at,frT.at],backgroundColor:[ROJO,NEGRO],borderColor:PAPEL,borderWidth:4}]},
+ options:{maintainAspectRatio:false,cutout:'55%',plugins:{legend:{position:'bottom'}}}});
+
+const durCats=[['1 día',c=>c.d===1],['2 días',c=>c.d===2],['3 días',c=>c.d===3]];
+new Chart(chDuracion,{data:{labels:durCats.map(d=>d[0]),datasets:[
+ {type:'bar',label:'Cursos',data:durCats.map(d=>C.filter(d[1]).length),backgroundColor:[TAN,NEGRO,ROJO]},
+ {type:'line',label:'% ocup.',data:durCats.map(d=>+(agg(C.filter(d[1])).oc*100).toFixed(1)),borderColor:ROJO,borderWidth:3,pointRadius:4,yAxisID:'y2'}]},
+ options:{maintainAspectRatio:false,plugins:{legend:{display:false}},
+  scales:{y:{grid:{display:false}},y2:{position:'right',min:0,max:70,ticks:{callback:v=>v+'%'},grid:{color:'rgba(0,0,0,.08)'}},x:{grid:{display:false}}}}});
+
+const MESES=['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+const rows24=C.filter(c=>c.f>='2024-01-01');
+const mData=MESES.map((m,i)=>agg(rows24.filter(c=>+c.f.slice(5,7)===i+1)));
+new Chart(chMeses,{data:{labels:MESES.map(m=>m.toUpperCase()),datasets:[
+ {type:'bar',label:'Cursos',data:mData.map(a=>a.n),backgroundColor:NEGRO},
+ {type:'bar',label:'Alistados',data:mData.map(a=>a.at),backgroundColor:TAN},
+ {type:'line',label:'% ocupación',data:mData.map(a=>a.pt?+(a.oc*100).toFixed(1):null),borderColor:ROJO,borderWidth:4,pointRadius:5,pointStyle:'rectRot',yAxisID:'y2'}]},
+ options:{maintainAspectRatio:false,scales:{y:{grid:{display:false}},
+  y2:{position:'right',min:0,max:80,ticks:{callback:v=>v+'%'},grid:{color:'rgba(0,0,0,.08)'}},x:{grid:{display:false}}}}});
+
+/* ---------- 06 PRECIOS ---------- */
+const pMed=t=>{const r=C.filter(c=>c.t===t);return {s:sum(r,c=>c.ps)/r.length,n:sum(r,c=>c.pn)/r.length};};
+new Chart(chPrecios,{type:'line',data:{labels:tempsCompletas.map(t=>t==='2025-26'?t+' ★':t),datasets:[
+ {label:'Tarifa media socio',data:tempsCompletas.map(t=>+pMed(t).s.toFixed(2)),borderColor:ROJO,backgroundColor:ROJO,borderWidth:4,pointRadius:6,pointStyle:'rectRot'},
+ {label:'Tarifa media no socio',data:tempsCompletas.map(t=>+pMed(t).n.toFixed(2)),borderColor:NEGRO,backgroundColor:NEGRO,borderWidth:4,pointRadius:6}]},
+ options:{maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.raw+' €'}}},
+  scales:{y:{ticks:{callback:v=>v+' €'},grid:{color:'rgba(0,0,0,.08)'}},x:{grid:{display:false}}}}});
+
+const r2526=C.filter(c=>c.t==='2025-26'&&c.h);
+const phData=TIPOS_ORDEN.map(t=>{const r=r2526.filter(c=>c.tipo===t);if(!r.length)return null;
+ return {t,s:sum(r,c=>c.ps/c.h)/r.length,n:sum(r,c=>c.pn/c.h)/r.length};}).filter(Boolean)
+ .sort((a,b)=>b.n-a.n);
+new Chart(chPrecioHora,{type:'bar',data:{labels:phData.map(d=>d.t),datasets:[
+ {label:'€/h socio',data:phData.map(d=>+d.s.toFixed(2)),backgroundColor:ROJO},
+ {label:'€/h no socio',data:phData.map(d=>+d.n.toFixed(2)),backgroundColor:NEGRO}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,
+  plugins:{tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.raw+' €'}}},
+  scales:{x:{ticks:{callback:v=>v+'€'},grid:{color:'rgba(0,0,0,.08)'}},y:{grid:{display:false},ticks:{font:{family:"'Oswald'",size:11}}}}}});
+
+/* ---------- 07 PERFILES ---------- */
+function perfil(t){
+  const a24=tipoAgg(t,'2024-25'), a25=tipoAgg(t,'2025-26');
+  if(a24.n<4||a25.n<4) return {cls:'nd',label:'DATOS INSUF.',a24,a25,txt:'Pocas ediciones para comparar temporadas con fiabilidad.'};
+  const dOc=a25.oc-a24.oc, dAl=(a25.at-a24.at)/a24.at;
+  let cls,label,txt;
+  if((dOc>=0.03&&dAl>=-0.10)||(dAl>=0.15&&dOc>=-0.02)){cls='pos';label='POSITIVO';
+    txt=`Ocupación ${dOc>=0?'+':''}${(dOc*100).toFixed(1)} pts y alumnos ${dAl>=0?'+':''}${(dAl*100).toFixed(0)}%. Admite más plazas o más ediciones en 2026-27.`;}
+  else if((dOc<=-0.03&&dAl<=0.10)||(dAl<=-0.15&&dOc<=0.02)){cls='neg';label='NEGATIVO';
+    txt=`Ocupación ${(dOc*100).toFixed(1)} pts y alumnos ${(dAl*100).toFixed(0)}%. Revisar formato, horario o promoción antes de repetir plan.`;}
+  else {cls='man';label='MANTENIDO';
+    txt=`Sin cambios relevantes (ocupación ${dOc>=0?'+':''}${(dOc*100).toFixed(1)} pts). Mantener la oferta actual.`;}
+  return {cls,label,a24,a25,txt};
+}
+document.getElementById('perfiles').innerHTML=TIPOS_ORDEN.filter(t=>t!=='Otros').map(t=>{
+  const p=perfil(t);
+  return `<div class="pcard ${p.cls}">
+    <div class="ph"><span>${t}</span><span class="badge">${p.label}</span></div>
+    <div class="pb"><table>
+      <tr><td></td><td><b>24-25</b></td><td><b>25-26 ★</b></td></tr>
+      <tr><td>Cursos</td><td>${p.a24.n}</td><td>${p.a25.n}</td></tr>
+      <tr><td>Alistados</td><td>${p.a24.at}</td><td>${p.a25.at}</td></tr>
+      <tr><td>Ocupación</td><td>${p.a24.n?fmtPct(p.a24.oc):'—'}</td><td>${p.a25.n?fmtPct(p.a25.oc):'—'}</td></tr>
+    </table><p style="margin-top:8px">${p.txt}</p></div></div>`;
+}).join('');
+
+/* ---------- 08 RECOMENDACIONES (datos calculados) ---------- */
+const recoT=[
+ {t:'Rollerdance y Derrapes: subir plazas o frecuencia',
+  p:`Rollerdance llena el ${fmtPct(tipoAgg('Rollerdance','2025-26').oc)} en 2025-26 y Derrapes ronda el 90% histórico, con overbooking en varias ediciones. Son los cursos con más demanda que oferta: cabe abrir más ediciones o subir plazas sin riesgo.`},
+ {t:'Urbano: el motor de socios',
+  p:`El curso Urbano llena el ${fmtPct(tipoAgg('Urbano','2025-26').oc)} con ${fmtPct(agg(C.filter(c=>c.tipo==='Urbano')).as/agg(C.filter(c=>c.tipo==='Urbano')).at)} de socios. Es la actividad de fidelización por excelencia: protegerla en el calendario de domingos por la mañana.`},
+ {t:'Niños: donde entran los no socios',
+  p:`Los cursos de niños aportan ${agg(C.filter(c=>c.tipo.startsWith('Niños'))).ans} alistados no socios (histórico). Casi ninguno es socio: es el mejor canal de captación de familias. Un plan de conversión (descuento 2º curso + alta familiar) tendría recorrido inmediato.`},
+ {t:'Nivel 0 sostiene el volumen; Nivel 2 apenas existe',
+  p:`Iniciación Nivel 0 es el tipo con más cursos (159) pero su ocupación media es mejorable. Nivel 2 solo tiene 7 ediciones: el embudo N0 → N1 → N2 pierde mucha gente. Programar N1/N2 pocas semanas después de cada N0 ayudaría a retener.`},
+ {t:'Sábado y domingo por la mañana mandan',
+  p:`El fin de semana concentra la mayor parte de los alistados y la franja de mañana llena más que la de tarde. Los estrenos de nuevas disciplinas tienen más probabilidad de éxito en ese hueco.`},
+ {t:'Julio es temporada alta, no baja',
+  p:`Julio es uno de los meses con más cursos y mejor ocupación del año (cursos intensivos). Merece programación propia y anticipada, no cursos de relleno.`}];
+const recoD=[
+ {t:'Exportar el histórico cada temporada',
+  p:'El gestor solo conserva desde enero de 2024: las temporadas 2014-2023 se han perdido. Un export CSV automático (o manual cada julio) evitaría perder más histórico.'},
+ {t:'Registrar bajas y asistencia real',
+  p:'Solo se guarda el alistamiento inicial. Sin asistencia real ni bajas no se puede medir la calidad del curso, solo su venta.'},
+ {t:'Unificar nombres de monitores',
+  p:'“DavidR”, “David R”, “David Rivas”; “Irene” vs “Irene Rodríguez” vs “Irene Díaz”. Un desplegable cerrado de monitores en el gestor eliminaría la ambigüedad.'},
+ {t:'Tarifas en campos estructurados',
+  p:'El precio vive en texto libre dentro de la ficha, con formatos distintos según la época. Dos campos numéricos (socio / no socio) harían el análisis trivial y evitarían errores.'},
+ {t:'ID de alumno para medir retención',
+  p:'El buscador ya guarda nº de socio por alistamiento: con un ID también para no socios se podría medir cuántos repiten curso y cuántos acaban haciéndose socios, la métrica clave de la sección.'},
+ {t:'Registrar lista de espera',
+  p:'Los cursos con plazas negativas indican demanda desbordada, pero no se sabe cuánta. Anotar la lista de espera diría exactamente cuántas ediciones extra abrir.'}];
+document.getElementById('recoTemporada').innerHTML=recoT.map((r,i)=>`<div class="r-item"><h4><b>${String(i+1).padStart(2,'0')}</b>${r.t}</h4><p>${r.p}</p></div>`).join('');
+document.getElementById('recoDatos').innerHTML=recoD.map((r,i)=>`<div class="r-item"><h4><b>${String(i+1).padStart(2,'0')}</b>${r.t}</h4><p>${r.p}</p></div>`).join('');
+
+/* ---------- 09 TABLA ---------- */
+const selTemp=document.getElementById('fTemp'), selTipo=document.getElementById('fTipo'), selZona=document.getElementById('fZona');
+selTemp.innerHTML='<option value="">Temporada: todas</option>'+temps.map(t=>`<option>${t}</option>`).join('');
+selTipo.innerHTML='<option value="">Tipo: todos</option>'+TIPOS_ORDEN.map(t=>`<option>${t}</option>`).join('');
+selZona.innerHTML='<option value="">Zona: todas</option>'+[...new Set(C.map(c=>c.z))].sort().map(z=>`<option>${z}</option>`).join('');
+let sortK='num', sortDir=1;
+function ocColor(v){return v>=0.75?VERDE:(v>=0.45?TAN:ROJO);}
+function drawTabla(){
+  const q=document.getElementById('fTexto').value.toLowerCase();
+  let rows=C.filter(c=>(!selTemp.value||c.t===selTemp.value)&&(!selTipo.value||c.tipo===selTipo.value)
+   &&(!selZona.value||c.z===selZona.value)
+   &&(!q||(c.n+' '+c.monRaw+' '+c.z+' '+c.tipo).toLowerCase().includes(q)));
+  rows=rows.slice().sort((a,b)=>{
+    let va=sortK==='oc'?(a.pt?a.at/a.pt:0):a[sortK], vb=sortK==='oc'?(b.pt?b.at/b.pt:0):b[sortK];
+    va=va??'';vb=vb??'';
+    return (va>vb?1:va<vb?-1:0)*sortDir;});
+  document.getElementById('fCount').textContent=rows.length+' cursos';
+  document.querySelector('#tabla tbody').innerHTML=rows.map(c=>{
+    const oc=c.pt?c.at/c.pt:0;
+    return `<tr><td class="num">${c.num}</td><td>${c.f.split('-').reverse().join('/')}</td><td>${c.n}</td><td>${c.tipo}</td>
+     <td class="num">${c.d??''}</td><td class="num">${c.h??''}</td><td>${c.hi}</td><td>${c.z}</td><td>${c.monRaw||'—'}</td>
+     <td class="num">${c.ps}</td><td class="num">${c.pn}</td><td class="num">${c.pt}</td><td class="num">${c.pl}</td>
+     <td class="num"><b>${c.at}</b></td><td class="num">${c.as}</td><td class="num">${c.ans}</td>
+     <td><span class="ocup-pill" style="background:${ocColor(oc)}">${(oc*100).toFixed(0)}%</span></td></tr>`;}).join('');
+}
+['fTexto','fTemp','fTipo','fZona'].forEach(id=>document.getElementById(id).addEventListener('input',drawTabla));
+document.getElementById('fReset').onclick=()=>{['fTexto','fTemp','fTipo','fZona'].forEach(id=>document.getElementById(id).value='');drawTabla();};
+document.querySelectorAll('#tabla th').forEach(th=>th.onclick=()=>{
+  const k=th.dataset.k;sortDir=(sortK===k)?-sortDir:1;sortK=k;drawTabla();});
+drawTabla();
+</script>
+</body>
+</html>
