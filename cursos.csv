@@ -1,0 +1,694 @@
+﻿Nº;Fecha;Curso;Tipo;Subtipo;Días;Horas totales;Hora inicio;Zona;Instalación;Monitor/a;Precio socio €;Precio no socio €;Plazas totales;Plazas libres;Alistados totales;Alistados socios;Alistados no socios;% Ocupación;Temporada;Día semana;Franja
+1;2012-09-19;Masterclass Rollerdance Asha Kirkby;Rollerdance;Masterclass/Fitness;;;20:30;Retiro;Paseo De Coches;;26,0;35,0;20;18;2;2;0;10,0;2012-13;Miércoles;Tarde
+2;2012-09-19;Masterclass Rollerdance Asha Kirkby;Rollerdance;Masterclass/Fitness;;;19:00;Retiro;Paseo De Coches;;26,0;35,0;20;19;1;1;0;5,0;2012-13;Miércoles;Tarde
+3;2012-10-21;ROLLER FITNESS;Rollerdance;Masterclass/Fitness;;;11:00;Retiro;Paseo De Coches;;21,0;30,0;16;14;2;2;0;12,5;2012-13;Domingo;Mañana
+4;2013-04-21;Curso Urbano Patinaje 1;Urbano;Nivel 1 (2013);;;10:00;Retiro;Paseo De Coches;;18,5;26,0;10;9;1;1;0;10,0;2012-13;Domingo;Mañana
+5;2013-05-12;Curso Urbano Patinaje 2;Urbano;Nivel 2 (2013);;;10:00;Retiro;Paseo De Coches;;18,5;26,0;10;10;0;0;0;0,0;2012-13;Domingo;Mañana
+6;2013-05-23;Masterclass Rollerdance Asha Kirkby;Rollerdance;Masterclass/Fitness;;;20:30;Retiro;Paseo De Coches;;9,0;12,0;16;9;7;2;5;43,8;2012-13;Jueves;Tarde
+7;2013-05-23;Masterclass Rollerdance Asha Kirkby;Rollerdance;Masterclass/Fitness;;;19:00;Retiro;Paseo De Coches;;9,0;12,0;16;14;2;2;0;12,5;2012-13;Jueves;Tarde
+8;2013-05-25;Curso Urbano Patinaje 2;Urbano;Nivel 2 (2013);;;16:00;Retiro;Paseo De Coches;;18,5;26,0;10;9;1;1;0;10,0;2012-13;Sábado;Tarde
+9;2013-06-22;Curso Urbano Patinaje 3;Urbano;Nivel 3 (2013);;;17:00;Retiro;Paseo De Coches;;18,5;26,0;10;8;2;1;1;20,0;2012-13;Sábado;Tarde
+10;2013-07-04;Entrenamiento Patinaje Velocidad 6H;Velocidad;Tecnificación;;;20:15;Retiro;Paseo De Coches;Lucia;31,25;50,0;20;16;4;4;0;20,0;2012-13;Jueves;Tarde
+11;2016-05-05;Curso Preparación Maratón Patinaje Madrid;Otros;Curso Preparación Maratón Patinaje Madrid;;;19:15;Vicálvaro;Calle Dehesa Vieja;Lucia;35,0;40,0;16;10;6;3;3;37,5;2015-16;Jueves;Tarde
+12;2023-06-18;Curso Tecnificación Tiros Hockey;Hockey;Tecnificación tiros;1;2.0;16:00;Alcobendas;Pista 4 - P.M. José Caballero;Javi;20,0;25,0;16;11;5;5;0;31,2;2022-23;Domingo;Tarde
+13;2023-07-01;Curso Refuerzo Patinaje Niños 5-7;Niños Disciplinas;Refuerzo;2;2.0;11:10;Retiro;Paseo De Coches;Juan Carlos;15,0;20,0;12;11;1;0;1;8,3;2022-23;Sábado;Mañana
+14;2023-07-01;Curso Refuerzo Patinaje Niños 8-11;Niños Disciplinas;Refuerzo;2;2.0;10:00;Retiro;Paseo De Coches;Juan Carlos;15,0;20,0;12;11;1;0;1;8,3;2022-23;Sábado;Mañana
+15;2023-07-14;Curso Rollerdance Medio;Rollerdance;Medio;1;2.0;19:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Javi;15,0;25,0;16;12;4;4;0;25,0;2022-23;Viernes;Tarde
+16;2023-07-22;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;10:00;Ventas;Alrededores Plaza De Toros;Javi;15,0;25,0;10;5;5;4;1;50,0;2022-23;Sábado;Mañana
+17;2023-07-22;Curso Iniciación Skatepark;Otros;Curso Iniciación Skatepark;1;2.0;08:30;Ventas;Alrededores Plaza De Toros;Javi;15,0;25,0;10;7;3;3;0;30,0;2022-23;Sábado;Mañana
+18;2023-09-06;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;3;3.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;20,0;30,0;14;14;0;0;0;0,0;2023-24;Miércoles;Tarde
+19;2023-09-08;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;19:30;San Sebastián de los Reyes;Parque De La Marina;Irene;15,0;25,0;10;10;0;0;0;0,0;2023-24;Viernes;Tarde
+20;2023-09-10;Curso Patinaje Urbano Niños;Niños Disciplinas;Urbano;1;1.0;10:00;San Sebastián de los Reyes;Parque De La Marina;Irene;10,0;15,0;10;9;1;0;1;10,0;2023-24;Domingo;Mañana
+21;2023-09-17;Curso Freestyle Slalom Niños;Niños Disciplinas;Slalom;1;1.0;11:40;Retiro;Paseo De Coches;Marta Águila;10,0;15,0;12;12;0;0;0;0,0;2023-24;Domingo;Mañana
+22;2023-09-18;Curso Patinaje Velocidad Niños;Niños Disciplinas;Velocidad;3;3.0;18:30;Juan Carlos I;Parking Auditorium;David Rivas;20,0;30,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+23;2023-12-02;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;San Sebastián de los Reyes;Parque De La Marina;Irene;22,0;28,0;10;10;0;0;0;0,0;2023-24;Sábado;Mañana
+24;2024-01-08;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Paseo De Coches;Elena;42,0;42,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+25;2024-01-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:00;Retiro;Paseo De Coches;Elena;42,0;42,0;10;10;0;0;0;0,0;2023-24;Lunes;Tarde
+26;2024-01-08;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Daniel;32,0;32,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+27;2024-01-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;42,0;42,0;10;6;4;0;4;40,0;2023-24;Lunes;Tarde
+28;2024-01-08;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;3.0;19:00;Metropolitano;Parking Exterior;DavidR;28,0;34,0;12;11;1;1;0;8,3;2023-24;Lunes;Tarde
+29;2024-01-10;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;42,0;42,0;10;5;5;0;5;50,0;2023-24;Miércoles;Tarde
+30;2024-01-10;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;19:00;Retiro;Curva Rosaleda;Marta Águila;28,0;34,0;12;11;1;0;1;8,3;2023-24;Miércoles;Tarde
+31;2024-01-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;DavidR13-DavidG2;32,0;32,0;10;5;5;0;5;50,0;2023-24;Sábado;Mañana
+32;2024-01-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;DavidR13-DavidG2;42,0;42,0;10;4;6;0;6;60,0;2023-24;Sábado;Mañana
+33;2024-01-13;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;32,0;32,0;12;9;3;0;3;25,0;2023-24;Sábado;Mañana
+34;2024-01-13;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;34,0;44,0;16;16;0;0;0;0,0;2023-24;Sábado;Mañana
+35;2024-01-13;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;San Sebastián de los Reyes;Parque De La Marina;Irene;22,0;28,0;10;4;6;6;0;60,0;2023-24;Sábado;Mañana
+36;2024-01-14;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;13:10;Retiro;Paseo De Coches;David Gamito;32,0;32,0;12;0;12;0;12;100,0;2023-24;Domingo;Mañana
+37;2024-01-14;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:40;Retiro;Paseo De Coches;David Gamito;42,0;42,0;12;5;7;0;7;58,3;2023-24;Domingo;Mañana
+38;2024-01-20;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;Retiro;Paseo De Coches;Marta Aguila;22,0;28,0;10;7;3;3;0;30,0;2023-24;Sábado;Mañana
+39;2024-01-21;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene1-DavidR23;32,0;32,0;10;0;10;0;10;100,0;2023-24;Domingo;Mañana
+40;2024-01-28;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;32,0;32,0;10;9;1;0;1;10,0;2023-24;Domingo;Mañana
+41;2024-02-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:40;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;12;8;4;0;4;33,3;2023-24;Jueves;Tarde
+42;2024-02-03;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;32,0;32,0;12;8;4;0;4;33,3;2023-24;Sábado;Mañana
+43;2024-02-03;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;42,0;42,0;12;6;6;0;6;50,0;2023-24;Sábado;Mañana
+44;2024-02-03;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;10;4;6;0;6;60,0;2023-24;Sábado;Mañana
+45;2024-02-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;13:10;Retiro;Paseo De Coches;David Gamito;32,0;32,0;10;0;10;0;10;100,0;2023-24;Domingo;Mañana
+46;2024-02-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:40;Retiro;Paseo De Coches;David Gamito;42,0;42,0;10;6;4;0;4;40,0;2023-24;Domingo;Mañana
+47;2024-02-04;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:30;Ventas;Alrededores Plaza De Toros;Iciar;22,0;28,0;10;6;4;4;0;40,0;2023-24;Domingo;Mañana
+48;2024-02-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;42,0;42,0;10;7;3;0;3;30,0;2023-24;Lunes;Tarde
+49;2024-02-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:20;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;8;2;6;0;6;75,0;2023-24;Martes;Tarde
+50;2024-02-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;Yskander;32,0;32,0;10;1;9;0;9;90,0;2023-24;Martes;Tarde
+51;2024-02-07;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;42,0;42,0;12;11;1;0;1;8,3;2023-24;Miércoles;Tarde
+52;2024-02-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;10;3;7;0;7;70,0;2023-24;Miércoles;Tarde
+53;2024-02-09;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;34,0;44,0;16;15;1;1;0;6,2;2023-24;Viernes;Tarde
+54;2024-02-10;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;10;7;3;1;2;30,0;2023-24;Sábado;Mañana
+55;2024-02-11;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas13-Irene2;32,0;32,0;12;1;11;0;11;91,7;2023-24;Domingo;Mañana
+56;2024-02-11;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;22,0;28,0;16;12;4;2;2;25,0;2023-24;Domingo;Tarde
+57;2024-02-18;Curso Patinaje en Cuestas Avanzado;Cuestas;Avanzado;2;3.0;11:00;Juan Carlos I;Parking Auditorium;Iciar;28,0;34,0;10;5;5;3;2;50,0;2023-24;Domingo;Mañana
+58;2024-02-18;Curso Patinaje en Cuestas Medio;Cuestas;Medio;2;3.0;10:30;Juan Carlos I;Parking Auditorium;Iciar;28,0;34,0;10;8;2;1;1;20,0;2023-24;Domingo;Mañana
+59;2024-02-18;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene2-David Rivas3;32,0;32,0;10;9;1;0;1;10,0;2023-24;Domingo;Mañana
+60;2024-02-18;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;10:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene2-David Rivas3;32,0;32,0;12;11;1;0;1;8,3;2023-24;Domingo;Mañana
+61;2024-03-01;Curso Patinaje en Cuestas Básico;Cuestas;Básico;2;3.0;18:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;28,0;34,0;10;7;3;3;0;30,0;2023-24;Viernes;Tarde
+62;2024-03-02;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo13-Irene2;42,0;42,0;12;7;5;2;3;41,7;2023-24;Sábado;Mañana
+63;2024-03-03;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;13:10;Retiro;Paseo De Coches;David Gamito;32,0;32,0;12;7;5;0;5;41,7;2023-24;Domingo;Mañana
+64;2024-03-03;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;32,0;32,0;10;2;8;0;8;80,0;2023-24;Domingo;Mañana
+65;2024-03-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;42,0;42,0;10;5;5;0;5;50,0;2023-24;Domingo;Mañana
+66;2024-03-03;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;22,0;28,0;16;10;6;5;1;37,5;2023-24;Domingo;Tarde
+67;2024-03-04;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;42,0;42,0;12;9;3;0;3;25,0;2023-24;Lunes;Tarde
+68;2024-03-04;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;3.0;19:00;Metropolitano;Parking Exterior;David Rivas;28,0;34,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+69;2024-03-05;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:20;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;12;4;8;0;8;66,7;2023-24;Martes;Tarde
+70;2024-03-05;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;Madrid Río;Explanada Matadero;Yskander;32,0;32,0;12;11;1;0;1;8,3;2023-24;Martes;Tarde
+71;2024-03-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Juan Carlos;42,0;42,0;10;6;4;0;4;40,0;2023-24;Miércoles;Tarde
+72;2024-03-06;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;12;8;4;0;4;33,3;2023-24;Miércoles;Tarde
+73;2024-03-06;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;19:00;Retiro;Curva Rosaleda;Marta Águila;28,0;34,0;12;10;2;2;0;16,7;2023-24;Miércoles;Tarde
+74;2024-03-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:45;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;8;7;1;0;1;12,5;2023-24;Jueves;Tarde
+75;2024-03-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:40;Madrid Río;Explanada Matadero;Yskander;32,0;32,0;10;8;2;0;2;20,0;2023-24;Jueves;Tarde
+76;2024-03-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;Barajas;Recinto Ferial;Paloma;42,0;42,0;10;8;2;0;2;20,0;2023-24;Jueves;Tarde
+77;2024-03-09;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;Nuevos Ministerios;Azca;Marta Aguila;22,0;28,0;10;6;4;4;0;40,0;2023-24;Sábado;Mañana
+78;2024-03-10;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:40;Retiro;Paseo De Coches;David Gamito;42,0;42,0;12;9;3;0;3;25,0;2023-24;Domingo;Mañana
+79;2024-03-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Daniel;32,0;32,0;10;7;3;0;3;30,0;2023-24;Lunes;Tarde
+80;2024-03-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;32,0;32,0;10;5;5;0;5;50,0;2023-24;Sábado;Mañana
+81;2024-03-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;42,0;42,0;10;2;8;0;8;80,0;2023-24;Sábado;Mañana
+82;2024-03-16;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;12;5;7;0;7;58,3;2023-24;Sábado;Mañana
+83;2024-04-03;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Paseo De Coches;Juan Carlos;42,0;42,0;12;4;8;0;8;66,7;2023-24;Miércoles;Tarde
+84;2024-04-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;42,0;42,0;10;10;0;0;0;0,0;2023-24;Miércoles;Tarde
+85;2024-04-03;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;10;4;6;0;6;60,0;2023-24;Miércoles;Tarde
+86;2024-04-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:40;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;8;4;4;0;4;50,0;2023-24;Jueves;Tarde
+87;2024-04-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;Barajas;Recinto Ferial;Paloma12-¿?3;42,0;42,0;10;6;4;0;4;40,0;2023-24;Jueves;Tarde
+88;2024-04-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;10;0;10;0;10;100,0;2023-24;Sábado;Mañana
+89;2024-04-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;42,0;42,0;10;3;7;0;7;70,0;2023-24;Sábado;Mañana
+90;2024-04-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;13:10;Retiro;Paseo De Coches;David Gamito;32,0;32,0;10;4;6;0;6;60,0;2023-24;Domingo;Mañana
+91;2024-04-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:40;Retiro;Paseo De Coches;David Gamito;42,0;42,0;10;3;7;0;7;70,0;2023-24;Domingo;Mañana
+92;2024-04-07;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;32,0;32,0;12;1;11;0;11;91,7;2023-24;Domingo;Mañana
+93;2024-04-07;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;42,0;42,0;12;7;5;0;5;41,7;2023-24;Domingo;Mañana
+94;2024-04-09;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;19:20;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;10;7;3;1;2;30,0;2023-24;Martes;Tarde
+95;2024-04-09;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:10;Madrid Río;Explanada Matadero;Yskander;32,0;32,0;10;8;2;0;2;20,0;2023-24;Martes;Tarde
+96;2024-04-09;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:30;Barajas;Recinto Ferial;Vanesa;32,0;32,0;10;9;1;0;1;10,0;2023-24;Martes;Tarde
+97;2024-04-10;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Guadalupe;42,0;42,0;10;5;5;0;5;50,0;2023-24;Miércoles;Tarde
+98;2024-04-13;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;32,0;32,0;12;6;6;0;6;50,0;2023-24;Sábado;Mañana
+99;2024-04-13;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;42,0;42,0;12;7;5;0;5;41,7;2023-24;Sábado;Mañana
+100;2024-04-13;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Nuevos Ministerios;Azca;Marta Aguila;22,0;28,0;10;4;6;6;0;60,0;2023-24;Sábado;Mañana
+101;2024-04-14;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:00;Nuevos Ministerios;Azca;Iciar;22,0;28,0;10;4;6;6;0;60,0;2023-24;Domingo;Mañana
+102;2024-04-15;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;19:30;Retiro;Curva Rosaleda;Marta Águila;34,0;44,0;12;5;7;7;0;58,3;2023-24;Lunes;Tarde
+103;2024-04-21;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;22,0;28,0;16;7;9;5;4;56,2;2023-24;Domingo;Tarde
+104;2024-04-22;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Daniel13-Irene2;32,0;32,0;10;10;0;0;0;0,0;2023-24;Lunes;Tarde
+105;2024-04-22;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Daniel13-Irene2;32,0;32,0;12;11;1;0;1;8,3;2023-24;Lunes;Tarde
+106;2024-04-27;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;San Sebastián de los Reyes;Parque De La Marina;Irene;22,0;28,0;10;9;1;1;0;10,0;2023-24;Sábado;Mañana
+107;2024-05-06;Curso Slalom Iniciación Nivel 2;Freestyle Slalom;Iniciación;3;4.0;19:30;Retiro;Paseo De Coches;Iciar;34,0;44,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+108;2024-05-06;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;19:30;Retiro;Curva Rosaleda;Marta Águila;34,0;44,0;12;6;6;5;1;50,0;2023-24;Lunes;Tarde
+109;2024-05-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:20;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;8;5;3;0;3;37,5;2023-24;Martes;Tarde
+110;2024-05-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:10;Madrid Río;Explanada Matadero;Yskander;32,0;32,0;10;3;7;0;7;70,0;2023-24;Martes;Tarde
+111;2024-05-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:45;Barajas;Recinto Ferial;Vanesa;32,0;32,0;10;6;4;0;4;40,0;2023-24;Martes;Tarde
+112;2024-05-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;42,0;42,0;10;4;6;0;6;60,0;2023-24;Miércoles;Tarde
+113;2024-05-08;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;12;6;6;0;6;50,0;2023-24;Miércoles;Tarde
+114;2024-05-08;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Guadalupe;42,0;42,0;10;9;1;0;1;10,0;2023-24;Miércoles;Tarde
+115;2024-05-08;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;19:30;Retiro;Curva Rosaleda;Juan Carlos;42,0;42,0;10;8;2;1;1;20,0;2023-24;Miércoles;Tarde
+116;2024-05-08;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;19:30;Metropolitano;Parking Exterior;David Rivas;34,0;44,0;12;4;8;8;0;66,7;2023-24;Miércoles;Tarde
+117;2024-05-09;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:40;Madrid Río;Explanada Matadero;Yskander;42,0;42,0;12;10;2;0;2;16,7;2023-24;Jueves;Tarde
+118;2024-05-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Irene Díaz;42,0;42,0;8;4;4;0;4;50,0;2023-24;Jueves;Tarde
+119;2024-05-09;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;Barajas;Recinto Ferial;Paloma;42,0;42,0;12;12;0;0;0;0,0;2023-24;Jueves;Tarde
+120;2024-05-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;42,0;42,0;10;6;4;0;4;40,0;2023-24;Jueves;Tarde
+121;2024-05-10;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodriguez;34,0;44,0;16;12;4;3;1;25,0;2023-24;Viernes;Tarde
+122;2024-05-10;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;10;1;9;0;9;90,0;2023-24;Viernes;Tarde
+123;2024-05-11;Curso Patinaje en Cuestas Básico;Cuestas;Básico;2;3.0;10:00;Juan Carlos I;Parking Auditorium;Vanesa;28,0;34,0;10;5;5;5;0;50,0;2023-24;Sábado;Mañana
+124;2024-05-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;10;0;10;0;10;100,0;2023-24;Sábado;Mañana
+125;2024-05-11;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;32,0;32,0;12;7;5;0;5;41,7;2023-24;Sábado;Mañana
+126;2024-05-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;42,0;42,0;12;4;8;0;8;66,7;2023-24;Sábado;Mañana
+127;2024-05-11;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;11:30;Retiro;Curva Rosaleda;Marta Aguila;32,0;32,0;12;12;0;0;0;0,0;2023-24;Sábado;Mañana
+128;2024-05-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Curva Rosaleda;Marta Aguila;42,0;42,0;10;2;8;0;8;80,0;2023-24;Sábado;Mañana
+129;2024-05-12;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Susana;32,0;32,0;12;3;9;0;9;75,0;2023-24;Domingo;Mañana
+130;2024-05-12;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Susana;42,0;42,0;10;6;4;0;4;40,0;2023-24;Domingo;Mañana
+131;2024-05-12;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;22,0;28,0;16;15;1;1;0;6,2;2023-24;Domingo;Tarde
+132;2024-05-12;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:40;Retiro;Curva Rosaleda;David Rivas;32,0;32,0;12;5;7;0;7;58,3;2023-24;Domingo;Mañana
+133;2024-05-12;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Curva Rosaleda;David Rivas;32,0;32,0;10;4;6;0;6;60,0;2023-24;Domingo;Mañana
+134;2024-05-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;Retiro;Curva Rosaleda;David Rivas;42,0;42,0;10;4;6;0;6;60,0;2023-24;Domingo;Mañana
+135;2024-05-19;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:00;Palacio Real;Plaza De Oriente;Iciar;22,0;28,0;10;4;6;5;1;60,0;2023-24;Domingo;Mañana
+136;2024-05-25;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Juan Carlos I;Parking Auditorium;Vanesa;22,0;28,0;10;4;6;6;0;60,0;2023-24;Sábado;Mañana
+137;2024-05-31;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;22,0;28,0;16;16;0;0;0;0,0;2023-24;Viernes;Tarde
+138;2024-06-01;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo13-Irene2;32,0;32,0;12;11;1;0;1;8,3;2023-24;Sábado;Mañana
+139;2024-06-01;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David O13-Irene R2;32,0;32,0;12;3;9;0;9;75,0;2023-24;Sábado;Mañana
+140;2024-06-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Curva Rosaleda;Marta Águila;32,0;32,0;10;3;7;0;7;70,0;2023-24;Sábado;Mañana
+141;2024-06-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;Retiro;Curva Rosaleda;Marta Águila;42,0;42,0;10;2;8;0;8;80,0;2023-24;Sábado;Mañana
+142;2024-06-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Susana13-Irene R2;32,0;32,0;10;3;7;0;7;70,0;2023-24;Domingo;Mañana
+143;2024-06-02;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;12:40;Retiro;Curva Rosaleda;David Rivas12-Guadalupe3;32,0;32,0;12;12;0;0;0;0,0;2023-24;Domingo;Mañana
+144;2024-06-02;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;Retiro;Curva Rosaleda;David R12-Guada3;32,0;32,0;12;7;5;0;5;41,7;2023-24;Domingo;Mañana
+145;2024-06-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Curva Rosaleda;David R12-Guada3;42,0;42,0;8;2;6;0;6;75,0;2023-24;Domingo;Mañana
+146;2024-06-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R;42,0;42,0;10;2;8;0;8;80,0;2023-24;Lunes;Tarde
+147;2024-06-03;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R;32,0;32,0;10;8;2;0;2;20,0;2023-24;Lunes;Tarde
+148;2024-06-03;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;19:30;Retiro;Curva Rosaleda;Marta Águila;34,0;44,0;12;7;5;3;2;41,7;2023-24;Lunes;Tarde
+149;2024-06-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Curva Rosaleda;Elena;42,0;42,0;8;5;3;0;3;37,5;2023-24;Martes;Mañana
+150;2024-06-04;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;17:45;Barajas;Recinto Ferial;Vanesa;32,0;32,0;12;12;0;0;0;0,0;2023-24;Martes;Tarde
+151;2024-06-05;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;42,0;42,0;12;12;0;0;0;0,0;2023-24;Miércoles;Tarde
+152;2024-06-05;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;12;11;1;0;1;8,3;2023-24;Miércoles;Tarde
+153;2024-06-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Juan Carlos;42,0;42,0;8;0;8;0;8;100,0;2023-24;Miércoles;Tarde
+154;2024-06-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:20;Madrid Río;Explanada Matadero;Guadalupe13-Carolina2;42,0;42,0;8;3;5;0;5;62,5;2023-24;Jueves;Tarde
+155;2024-06-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:10;Madrid Río;Explanada Matadero;Guadalupe13-Carolina2;32,0;32,0;10;4;6;0;6;60,0;2023-24;Jueves;Tarde
+156;2024-06-06;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Irene D;42,0;42,0;10;8;2;0;2;20,0;2023-24;Jueves;Tarde
+157;2024-06-07;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R;34,0;44,0;16;14;2;2;0;12,5;2023-24;Viernes;Tarde
+158;2024-06-07;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;32,0;32,0;12;7;5;0;5;41,7;2023-24;Viernes;Tarde
+159;2024-06-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R1-David O2;32,0;32,0;10;9;1;0;1;10,0;2023-24;Sábado;Mañana
+160;2024-06-09;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R1-Susana2;32,0;32,0;12;11;1;0;1;8,3;2023-24;Domingo;Mañana
+161;2024-06-13;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;42,0;42,0;12;8;4;0;4;33,3;2023-24;Jueves;Tarde
+162;2024-06-22;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;San Sebastián de los Reyes;Parque De La Marina;Irene R;22,0;28,0;10;7;3;2;1;30,0;2023-24;Sábado;Mañana
+163;2024-07-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;Retiro;Paseo De Coches;Antía;32,0;32,0;10;4;6;0;6;60,0;2023-24;Lunes;Tarde
+164;2024-07-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Retiro;Paseo De Coches;Antía;32,0;32,0;10;8;2;0;2;20,0;2023-24;Lunes;Tarde
+165;2024-07-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;20:20;Madrid Río;Explanada Matadero;Alex;32,0;32,0;12;8;4;0;4;33,3;2023-24;Lunes;Tarde
+166;2024-07-01;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;19:10;Madrid Río;Explanada Matadero;Alex;32,0;32,0;12;12;0;0;0;0,0;2023-24;Lunes;Tarde
+167;2024-07-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mabel;32,0;32,0;10;7;3;0;3;30,0;2023-24;Lunes;Tarde
+168;2024-07-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mabel;32,0;32,0;10;3;7;0;7;70,0;2023-24;Lunes;Tarde
+169;2024-07-02;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;20:20;Retiro;Paseo De Coches;Antía;21,0;32,0;12;7;5;4;1;41,7;2023-24;Martes;Tarde
+170;2024-07-02;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;19:10;Retiro;Paseo De Coches;Antía;21,0;32,0;12;8;4;2;2;33,3;2023-24;Martes;Tarde
+171;2024-07-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;Madrid Río;Explanada Matadero;Alex;32,0;32,0;10;3;7;0;7;70,0;2023-24;Martes;Tarde
+172;2024-07-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Madrid Río;Explanada Matadero;Alex;32,0;32,0;10;5;5;0;5;50,0;2023-24;Martes;Tarde
+173;2024-07-02;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Dave;21,0;32,0;16;12;4;1;3;25,0;2023-24;Martes;Tarde
+174;2024-07-02;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Dave;21,0;32,0;16;12;4;2;2;25,0;2023-24;Martes;Tarde
+175;2024-07-02;Curso Refuerzo Patinaje Experto 1;Refuerzo Adultos;Experto 1;3;3.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;21,0;32,0;14;8;6;5;1;42,9;2023-24;Martes;Tarde
+176;2024-07-02;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;3.0;19:10;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;21,0;32,0;14;2;12;11;1;85,7;2023-24;Martes;Tarde
+177;2024-07-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;Barajas;Recinto Ferial;Vanesa;32,0;32,0;10;10;0;0;0;0,0;2023-24;Martes;Tarde
+178;2024-07-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Barajas;Recinto Ferial;Vanesa;32,0;32,0;10;8;2;0;2;20,0;2023-24;Martes;Tarde
+179;2024-07-03;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R;21,0;32,0;16;8;8;6;2;50,0;2023-24;Miércoles;Tarde
+180;2024-07-03;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene R;21,0;32,0;12;12;0;0;0;0,0;2023-24;Miércoles;Tarde
+181;2024-07-03;Curso Refuerzo Patinaje Experto 2;Refuerzo Adultos;Experto 2;3;3.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;32,0;14;3;11;11;0;78,6;2023-24;Miércoles;Tarde
+182;2024-07-03;Curso de Derrapes;Otros;Curso de Derrapes;3;3.0;19:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;32,0;14;2;12;12;0;85,7;2023-24;Miércoles;Tarde
+183;2024-07-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;27,0;27,0;10;8;2;0;2;20,0;2023-24;Sábado;Mañana
+184;2024-07-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;32,0;32,0;10;1;9;0;9;90,0;2023-24;Sábado;Mañana
+185;2024-07-06;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;09:30;Juan Carlos I;Parking Auditorium;Vanesa;17,0;27,0;10;4;6;5;1;60,0;2023-24;Sábado;Mañana
+186;2024-07-06;Curso Iniciación Artístico;Otros;Curso Iniciación Artístico;1;2.0;09:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;17,0;27,0;14;6;8;7;1;57,1;2023-24;Sábado;Mañana
+187;2024-07-07;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;09:30;Nuevos Ministerios;Azca;Iciar;17,0;27,0;10;9;1;1;0;10,0;2023-24;Domingo;Mañana
+188;2024-07-07;Curso Iniciación Pumptrack Niños;Niños Disciplinas;Pumptrack;1;1.0;10:30;Torrejón De Ardoz;Parque Del Ocio;Alex;10,0;17,0;10;8;2;2;0;20,0;2023-24;Domingo;Mañana
+189;2024-07-10;Curso Patinaje Urbano Niños;Niños Disciplinas;Urbano;1;1.0;19:10;San Sebastián de los Reyes;Parque De La Marina;Elena;10,0;17,0;10;7;3;0;3;30,0;2023-24;Miércoles;Tarde
+190;2024-07-11;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;17,0;27,0;16;5;11;9;2;68,8;2023-24;Jueves;Tarde
+191;2024-07-13;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;27,0;27,0;12;12;0;0;0;0,0;2023-24;Sábado;Mañana
+192;2024-07-13;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;11:10;Retiro;Paseo De Coches;David Rivas;32,0;32,0;12;6;6;0;6;50,0;2023-24;Sábado;Mañana
+193;2024-07-13;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;32,0;32,0;12;1;11;0;11;91,7;2023-24;Sábado;Mañana
+194;2024-07-13;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;2;3.0;11:00;Retiro;Paseo De Coches;Alex;21,0;32,0;12;12;0;0;0;0,0;2023-24;Sábado;Mañana
+195;2024-07-13;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;2;3.0;09:20;Retiro;Paseo De Coches;Alex;21,0;32,0;12;11;1;1;0;8,3;2023-24;Sábado;Mañana
+196;2024-07-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;27,0;27,0;10;5;5;0;5;50,0;2023-24;Sábado;Mañana
+197;2024-07-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;32,0;32,0;10;8;2;0;2;20,0;2023-24;Sábado;Mañana
+198;2024-07-13;Curso Iniciación Hockey;Hockey;Iniciación;1;2.0;09:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;17,0;27,0;14;7;7;5;2;50,0;2023-24;Sábado;Mañana
+199;2024-07-14;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;1;1.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;10,0;17,0;14;14;0;0;0;0,0;2023-24;Domingo;Mañana
+200;2024-07-15;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;20:20;Retiro;Paseo De Coches;Antía;32,0;32,0;12;6;6;4;2;50,0;2023-24;Lunes;Tarde
+201;2024-07-15;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;19:10;Retiro;Paseo De Coches;Antía;21,0;32,0;12;11;1;1;0;8,3;2023-24;Lunes;Tarde
+202;2024-07-15;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;20:20;Retiro;Paseo De Coches;Juan Carlos;32,0;32,0;12;8;4;0;4;33,3;2023-24;Lunes;Tarde
+203;2024-07-15;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;19:10;Retiro;Paseo De Coches;Juan Carlos;32,0;32,0;12;11;1;0;1;8,3;2023-24;Lunes;Tarde
+204;2024-07-15;Curso Patinaje en Cuestas Med/Avz;Cuestas;Med/avz;3;3.0;20:20;Juan Carlos I;Parking Auditorium;Iciar;32,0;32,0;10;1;9;9;0;90,0;2023-24;Lunes;Tarde
+205;2024-07-15;Curso Patinaje en Cuestas Bás/Med;Cuestas;Bás/med;3;3.0;19:10;Juan Carlos I;Parking Auditorium;Iciar;32,0;32,0;10;8;2;2;0;20,0;2023-24;Lunes;Tarde
+206;2024-07-15;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;Madrid Río;Explanada Matadero;Alex;32,0;32,0;10;3;7;0;7;70,0;2023-24;Lunes;Tarde
+207;2024-07-15;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Madrid Río;Explanada Matadero;Alex;32,0;32,0;10;5;5;0;5;50,0;2023-24;Lunes;Tarde
+208;2024-07-15;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;32,0;32,0;12;4;8;0;8;66,7;2023-24;Lunes;Tarde
+209;2024-07-15;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;32,0;32,0;12;8;4;0;4;33,3;2023-24;Lunes;Tarde
+210;2024-07-15;Curso Hockey Tecnificación;Hockey;Tecnificación;3;3.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Javi;32,0;32,0;14;1;13;13;0;92,9;2023-24;Lunes;Tarde
+211;2024-07-15;Curso Iniciación Hockey;Hockey;Iniciación;3;3.0;19:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;32,0;32,0;14;7;7;7;0;50,0;2023-24;Lunes;Tarde
+212;2024-07-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;Retiro;Paseo De Coches;Juan Carlos;32,0;32,0;10;9;1;0;1;10,0;2023-24;Martes;Tarde
+213;2024-07-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Retiro;Paseo De Coches;Juan Carlos;32,0;32,0;10;6;4;0;4;40,0;2023-24;Martes;Tarde
+214;2024-07-16;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;20:20;Madrid Río;Explanada Matadero;Alex;32,0;32,0;12;9;3;1;2;25,0;2023-24;Martes;Tarde
+215;2024-07-16;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;19:10;Madrid Río;Explanada Matadero;Alex;32,0;32,0;12;7;5;5;0;41,7;2023-24;Martes;Tarde
+216;2024-07-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;32,0;32,0;10;9;1;0;1;10,0;2023-24;Martes;Tarde
+217;2024-07-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;32,0;32,0;10;3;7;1;6;70,0;2023-24;Martes;Tarde
+218;2024-07-16;Curso Tecnificación Fs. Slalom;Freestyle Slalom;Tecnificación;3;3.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Antía;32,0;32,0;16;6;10;10;0;62,5;2023-24;Martes;Tarde
+219;2024-07-16;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;19:10;Retiro;Instalación Deportiva Retiro-Poeta;Antía;32,0;32,0;16;9;7;7;0;43,8;2023-24;Martes;Tarde
+220;2024-07-16;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;3.0;20:20;Metropolitano;Parking Exterior;David Rivas;32,0;32,0;14;6;8;8;0;57,1;2023-24;Martes;Tarde
+221;2024-07-16;Curso Tecnificación Pat. Velocidad;Velocidad;Tecnificación;3;3.0;19:10;Metropolitano;Parking Exterior;David Rivas;32,0;32,0;14;6;8;8;0;57,1;2023-24;Martes;Tarde
+222;2024-07-20;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;09:30;Retiro;Paseo De Coches;David Rivas;27,0;27,0;10;0;10;10;0;100,0;2023-24;Sábado;Mañana
+223;2024-07-20;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:10;Retiro;Paseo De Coches;Alex;27,0;27,0;10;8;2;0;2;20,0;2023-24;Sábado;Mañana
+224;2024-07-20;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;Alex;32,0;32,0;10;4;6;0;6;60,0;2023-24;Sábado;Mañana
+225;2024-07-20;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;27,0;27,0;12;11;1;0;1;8,3;2023-24;Sábado;Mañana
+226;2024-07-20;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Marta March;32,0;32,0;12;9;3;0;3;25,0;2023-24;Sábado;Mañana
+227;2024-07-20;Curso Iniciación al Skatepark;Otros;Curso Iniciación al Skatepark;1;2.0;08:30;Vallecas;Skate Park Vallecas. Parque Navamures;Javi;17,0;27,0;10;6;4;4;0;40,0;2023-24;Sábado;Mañana
+228;2024-07-21;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;09:30;Retiro;Paseo De Coches;David Rivas;27,0;27,0;10;4;6;6;0;60,0;2023-24;Domingo;Mañana
+229;2024-07-21;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;09:30;Nuevos Ministerios;Azca;Javi;27,0;27,0;10;5;5;5;0;50,0;2023-24;Domingo;Mañana
+230;2024-09-02;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:10;Retiro;Paseo De Coches;Marta Águila;29,0;42,0;16;8;8;8;0;50,0;2024-25;Lunes;Tarde
+231;2024-09-02;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;18:50;Retiro;Paseo De Coches;Marta Águila;29,0;42,0;12;3;9;5;4;75,0;2024-25;Lunes;Tarde
+232;2024-09-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;David Rivas;29,0;42,0;10;7;3;0;3;30,0;2024-25;Lunes;Tarde
+233;2024-09-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:00;Madrid Río;Explanada Matadero;David Rivas;21,0;32,0;10;6;4;0;4;40,0;2024-25;Lunes;Tarde
+234;2024-09-02;Curso de Derrapes;Otros;Curso de Derrapes;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;29,0;42,0;14;2;12;12;0;85,7;2024-25;Lunes;Tarde
+235;2024-09-02;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;3;3.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;32,0;14;11;3;3;0;21,4;2024-25;Lunes;Tarde
+236;2024-09-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Retiro;Paseo De Coches;Juan Carlos;29,0;42,0;10;7;3;1;2;30,0;2024-25;Martes;Tarde
+237;2024-09-03;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:50;Retiro;Paseo De Coches;Juan Carlos;29,0;42,0;12;12;0;0;0;0,0;2024-25;Martes;Tarde
+238;2024-09-03;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;20:10;Metropolitano;Parking Exterior;David Rivas;29,0;42,0;14;9;5;5;0;35,7;2024-25;Martes;Tarde
+239;2024-09-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;15,0;22,0;10;1;9;0;9;90,0;2024-25;Sábado;Mañana
+240;2024-09-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;21,0;32,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+241;2024-09-07;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;09:30;Parque Tierno Galván;Planetario De Madrid;Javi;17,0;27,0;10;1;9;9;0;90,0;2024-25;Sábado;Mañana
+242;2024-09-08;Curso Iniciación Hockey;Hockey;Iniciación;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;17,0;27,0;14;13;1;0;1;7,1;2024-25;Domingo;Mañana
+243;2024-09-14;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;15,0;22,0;12;3;9;0;9;75,0;2024-25;Sábado;Mañana
+244;2024-09-14;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;21,0;32,0;12;4;8;1;7;66,7;2024-25;Sábado;Mañana
+245;2024-09-14;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;09:30;Nuevos Ministerios;Azca;Marta Aguila;17,0;27,0;10;5;5;5;0;50,0;2024-25;Sábado;Mañana
+246;2024-09-16;Curso Patinaje en Cuestas Med/Avz;Cuestas;Med/avz;3;4.0;20:10;Retiro;Paseo De Coches;Iciar;29,0;42,0;10;6;4;4;0;40,0;2024-25;Lunes;Tarde
+247;2024-09-16;Curso Patinaje en Cuestas Bás/Med;Cuestas;Bás/med;3;4.0;18:50;Retiro;Paseo De Coches;Iciar;29,0;42,0;10;8;2;2;0;20,0;2024-25;Lunes;Tarde
+248;2024-09-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Retiro;Paseo De Coches;Marta Águila;29,0;42,0;10;2;8;0;8;80,0;2024-25;Lunes;Tarde
+249;2024-09-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:50;Retiro;Paseo De Coches;Marta Águila;29,0;42,0;12;7;5;2;3;41,7;2024-25;Lunes;Tarde
+250;2024-09-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;29,0;42,0;10;7;3;0;3;30,0;2024-25;Lunes;Tarde
+251;2024-09-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;21,0;32,0;10;2;8;0;8;80,0;2024-25;Lunes;Tarde
+252;2024-09-16;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene RodrÍguez;29,0;42,0;16;14;2;1;1;12,5;2024-25;Lunes;Tarde
+253;2024-09-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;29,0;42,0;12;8;4;0;4;33,3;2024-25;Lunes;Tarde
+254;2024-09-16;Curso Hockey Tecnificación;Hockey;Tecnificación;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;29,0;42,0;14;6;8;8;0;57,1;2024-25;Lunes;Tarde
+255;2024-09-16;Curso Iniciación Hockey;Hockey;Iniciación;3;4.0;18:50;Retiro;Instalación Deportiva Retiro-Poeta;Javi;29,0;42,0;14;13;1;1;0;7,1;2024-25;Lunes;Tarde
+256;2024-09-16;Curso Iniciación Hockey;Hockey;Iniciación;2;2.0;19:45;Alcobendas;Pista Hockey - C.D. Valdelasfuentes;Jose Luis;17,0;27,0;12;10;2;1;1;16,7;2024-25;Lunes;Tarde
+257;2024-09-17;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;4.0;20:10;Retiro;Paseo De Coches;David Rivas;29,0;42,0;12;8;4;3;1;33,3;2024-25;Martes;Tarde
+258;2024-09-17;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;18:50;Retiro;Paseo De Coches;David Rivas;29,0;42,0;12;6;6;5;1;50,0;2024-25;Martes;Tarde
+259;2024-09-17;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;29,0;42,0;16;10;6;5;1;37,5;2024-25;Martes;Tarde
+260;2024-09-17;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;18:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;29,0;42,0;16;12;4;2;2;25,0;2024-25;Martes;Tarde
+261;2024-09-17;Curso Refuerzo Patinaje Experto 1;Refuerzo Adultos;Experto 1;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;29,0;42,0;14;8;6;6;0;42,9;2024-25;Martes;Tarde
+262;2024-09-17;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;4.0;18:50;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;29,0;42,0;14;7;7;6;1;50,0;2024-25;Martes;Tarde
+263;2024-09-17;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:40;Barajas;Recinto Ferial;Vanesa;29,0;42,0;10;9;1;0;1;10,0;2024-25;Martes;Tarde
+264;2024-09-17;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;Barajas;Recinto Ferial;Vanesa;21,0;32,0;10;4;6;0;6;60,0;2024-25;Martes;Tarde
+265;2024-09-21;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Retiro;Paseo De Coches;Marta Águila;17,0;27,0;10;10;0;0;0;0,0;2024-25;Sábado;Mañana
+266;2024-09-21;Curso Iniciación Artístico;Otros;Curso Iniciación Artístico;1;2.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;17,0;27,0;14;7;7;7;0;50,0;2024-25;Sábado;Mañana
+267;2024-09-21;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;2;3.0;09:30;Metropolitano;Parking Exterior;David Rivas;21,0;32,0;14;11;3;2;1;21,4;2024-25;Sábado;Mañana
+268;2024-09-23;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;19:40;Madrid Río;Explanada Matadero;David Rivas;21,0;32,0;12;9;3;0;3;25,0;2024-25;Lunes;Tarde
+269;2024-09-23;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;18:30;Madrid Río;Explanada Matadero;David Rivas;15,0;22,0;12;11;1;0;1;8,3;2024-25;Lunes;Tarde
+270;2024-09-24;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;19:40;Madrid Río;Explanada Matadero;Guadalupe;21,0;32,0;10;7;3;1;2;30,0;2024-25;Martes;Tarde
+271;2024-09-24;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;18:30;Madrid Río;Explanada Matadero;Guadalupe;15,0;22,0;10;10;0;0;0;0,0;2024-25;Martes;Tarde
+272;2024-09-25;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;17,0;27,0;16;15;1;1;0;6,2;2024-25;Miércoles;Tarde
+273;2024-09-28;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:40;Retiro;Paseo De Coches;Oscar;15,0;22,0;10;2;8;0;8;80,0;2024-25;Sábado;Mañana
+274;2024-09-28;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:00;Retiro;Paseo De Coches;Oscar;21,0;32,0;10;9;1;0;1;10,0;2024-25;Sábado;Mañana
+275;2024-09-28;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;15,0;22,0;10;0;10;1;9;100,0;2024-25;Sábado;Mañana
+276;2024-09-28;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;15,0;22,0;12;2;10;2;8;83,3;2024-25;Sábado;Mañana
+277;2024-09-28;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;21,0;32,0;10;7;3;0;3;30,0;2024-25;Sábado;Mañana
+278;2024-09-28;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;21,0;32,0;12;9;3;0;3;25,0;2024-25;Sábado;Mañana
+279;2024-10-04;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;35,0;43,0;16;15;1;0;1;6,2;2024-25;Viernes;Tarde
+280;2024-10-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;43,0;43,0;10;10;0;0;0;0,0;2024-25;Viernes;Tarde
+281;2024-10-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;33,0;33,0;10;5;5;0;5;50,0;2024-25;Viernes;Tarde
+282;2024-10-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;10;2;8;0;8;80,0;2024-25;Sábado;Mañana
+283;2024-10-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;43,0;43,0;10;3;7;0;7;70,0;2024-25;Sábado;Mañana
+284;2024-10-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Paseo De Coches;David Rivas;33,0;33,0;10;1;9;0;9;90,0;2024-25;Domingo;Mañana
+285;2024-10-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Paseo De Coches;David Rivas;43,0;43,0;10;3;7;0;7;70,0;2024-25;Domingo;Mañana
+286;2024-10-06;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;15;1;1;0;6,2;2024-25;Domingo;Tarde
+287;2024-10-13;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;Retiro;Paseo De Coches;Marta Águila;23,0;28,0;10;7;3;2;1;30,0;2024-25;Domingo;Mañana
+288;2024-10-15;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:00;Retiro;Paseo De Coches;Marta Águila;35,0;43,0;16;15;1;0;1;6,2;2024-25;Martes;Tarde
+289;2024-10-22;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Carolina;43,0;43,0;10;6;4;0;4;40,0;2024-25;Martes;Tarde
+290;2024-10-23;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;10;7;3;0;3;30,0;2024-25;Miércoles;Tarde
+291;2024-10-23;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:15;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;10;4;6;0;6;60,0;2024-25;Miércoles;Tarde
+292;2024-10-27;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;23,0;28,0;16;14;2;2;0;12,5;2024-25;Domingo;Mañana
+293;2024-11-04;Curso Iniciación Hockey;Hockey;Iniciación;3;3.0;19:05;Retiro;Instalación Deportiva Retiro-Poeta;Javi;27,0;33,0;10;9;1;1;0;10,0;2024-25;Lunes;Tarde
+294;2024-11-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;Barajas;Recinto Ferial;Vanesa;33,0;33,0;10;5;5;0;5;50,0;2024-25;Martes;Tarde
+295;2024-11-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Carolina;43,0;43,0;10;9;1;0;1;10,0;2024-25;Miércoles;Tarde
+296;2024-11-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;19:00;Madrid Río;Explanada Matadero;David Rivas;33,0;33,0;10;7;3;0;3;30,0;2024-25;Miércoles;Tarde
+297;2024-11-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;David Rivas;33,0;33,0;10;10;0;0;0;0,0;2024-25;Miércoles;Tarde
+298;2024-11-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;43,0;43,0;10;10;0;0;0;0,0;2024-25;Miércoles;Tarde
+299;2024-11-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;10;9;1;0;1;10,0;2024-25;Jueves;Tarde
+300;2024-11-08;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;35,0;43,0;16;14;2;1;1;12,5;2024-25;Viernes;Tarde
+301;2024-11-08;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;3;3.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Alex;27,0;33,0;14;11;3;3;0;21,4;2024-25;Viernes;Tarde
+302;2024-11-08;Curso Iniciación Hockey;Hockey;Iniciación;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Marta Águila;35,0;43,0;10;10;0;0;0;0,0;2024-25;Viernes;Tarde
+303;2024-11-09;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Paseo De Coches;Oscar;33,0;33,0;10;6;4;0;4;40,0;2024-25;Sábado;Mañana
+304;2024-11-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Paseo De Coches;Oscar;43,0;43,0;10;1;9;0;9;90,0;2024-25;Sábado;Mañana
+305;2024-11-10;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Jorjón;33,0;33,0;10;4;6;0;6;60,0;2024-25;Domingo;Mañana
+306;2024-11-10;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Jorjón;43,0;43,0;10;6;4;0;4;40,0;2024-25;Domingo;Mañana
+307;2024-11-10;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;9;7;7;0;43,8;2024-25;Domingo;Tarde
+308;2024-11-24;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;Retiro;Paseo De Coches;Marta Águila;23,0;28,0;10;1;9;9;0;90,0;2024-25;Domingo;Mañana
+309;2024-11-29;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;23,0;28,0;16;15;1;1;0;6,2;2024-25;Viernes;Tarde
+310;2024-12-03;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:10;Retiro;Paseo De Coches;Marta Águila;35,0;43,0;16;14;2;2;0;12,5;2024-25;Martes;Tarde
+311;2024-12-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Irene Díaz;43,0;43,0;10;10;0;0;0;0,0;2024-25;Miércoles;Tarde
+312;2024-12-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;19:00;Madrid Río;Explanada Matadero;David Rivas;33,0;33,0;10;6;4;0;4;40,0;2024-25;Miércoles;Tarde
+313;2024-12-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;David Rivas;33,0;33,0;10;9;1;0;1;10,0;2024-25;Miércoles;Tarde
+314;2024-12-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;43,0;43,0;10;8;2;0;2;20,0;2024-25;Miércoles;Tarde
+315;2024-12-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;10;9;1;0;1;10,0;2024-25;Jueves;Tarde
+316;2024-12-14;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:00;Retiro;Paseo De Coches;David Rivas;22,0;22,0;10;8;2;0;2;20,0;2024-25;Sábado;Mañana
+317;2024-12-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:20;Retiro;Paseo De Coches;David Rivas;33,0;33,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+318;2024-12-14;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;22,0;22,0;10;10;0;0;0;0,0;2024-25;Sábado;Mañana
+319;2024-12-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;10;9;1;0;1;10,0;2024-25;Sábado;Mañana
+320;2024-12-21;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;San Sebastián de los Reyes;Parque De La Marina;Irene R;23,0;28,0;10;9;1;0;1;10,0;2024-25;Sábado;Mañana
+321;2024-12-22;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;13;3;3;0;18,8;2024-25;Domingo;Tarde
+322;2024-12-22;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:00;Barajas;Recinto Ferial;Vanesa;22,0;22,0;10;7;3;0;3;30,0;2024-25;Domingo;Mañana
+323;2024-12-22;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:20;Barajas;Recinto Ferial;Vanesa;33,0;33,0;10;6;4;0;4;40,0;2024-25;Domingo;Mañana
+324;2025-01-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;10;8;2;0;2;20,0;2024-25;Jueves;Tarde
+325;2025-01-10;Curso Iniciación Hockey;Hockey;Iniciación;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Alex;35,0;43,0;12;7;5;5;0;41,7;2024-25;Viernes;Tarde
+326;2025-01-10;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;3;3.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Alex;27,0;33,0;12;4;8;7;1;66,7;2024-25;Viernes;Tarde
+327;2025-01-11;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;33,0;33,0;12;12;0;0;0;0,0;2024-25;Sábado;Mañana
+328;2025-01-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;43,0;43,0;10;2;8;0;8;80,0;2024-25;Sábado;Mañana
+329;2025-01-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;10;0;10;0;10;100,0;2024-25;Sábado;Mañana
+330;2025-01-12;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;33,0;33,0;10;1;9;0;9;90,0;2024-25;Domingo;Mañana
+331;2025-01-12;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;43,0;43,0;10;6;4;0;4;40,0;2024-25;Domingo;Mañana
+332;2025-01-12;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Susana13-Vanesa2;33,0;33,0;12;4;8;0;8;66,7;2024-25;Domingo;Mañana
+333;2025-01-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Susana13-Vanesa2;43,0;43,0;10;4;6;0;6;60,0;2024-25;Domingo;Mañana
+334;2025-01-12;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;Nuevos Ministerios;Azca;Marta Aguila;23,0;28,0;10;3;7;7;0;70,0;2024-25;Domingo;Mañana
+335;2025-01-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:15;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;8;2;6;0;6;75,0;2024-25;Lunes;Tarde
+336;2025-01-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;10;5;5;0;5;50,0;2024-25;Lunes;Tarde
+337;2025-01-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta Águila;43,0;43,0;10;5;5;0;5;50,0;2024-25;Martes;Tarde
+338;2025-01-14;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Barajas;Recinto Ferial;Vanesa;33,0;33,0;10;5;5;0;5;50,0;2024-25;Martes;Tarde
+339;2025-01-15;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;19:00;Madrid Río;Explanada Matadero;David Rivas;33,0;33,0;10;8;2;0;2;20,0;2024-25;Miércoles;Tarde
+340;2025-01-18;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;10;8;2;0;2;20,0;2024-25;Sábado;Mañana
+341;2025-01-18;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:00;San Sebastián de los Reyes;Parque De La Marina;Irene R;23,0;28,0;10;9;1;1;0;10,0;2024-25;Sábado;Mañana
+342;2025-01-19;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;3;13;13;0;81,2;2024-25;Domingo;Tarde
+343;2025-02-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;Jorjón;33,0;33,0;10;0;10;0;10;100,0;2024-25;Sábado;Mañana
+344;2025-02-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;Jorjón;43,0;43,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+345;2025-02-02;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;33,0;33,0;12;0;12;0;12;100,0;2024-25;Domingo;Mañana
+346;2025-02-02;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;43,0;43,0;12;9;3;0;3;25,0;2024-25;Domingo;Mañana
+347;2025-02-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;33,0;33,0;10;3;7;0;7;70,0;2024-25;Domingo;Mañana
+348;2025-02-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;43,0;43,0;10;2;8;0;8;80,0;2024-25;Domingo;Mañana
+349;2025-02-02;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;2;3.0;11:30;Retiro;Instalación Deportiva Retiro-Poeta;Marta Águila;27,0;33,0;16;7;9;9;0;56,2;2024-25;Domingo;Mañana
+350;2025-02-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Guadalupe;43,0;43,0;10;3;7;0;7;70,0;2024-25;Miércoles;Tarde
+351;2025-02-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;43,0;43,0;10;10;0;0;0;0,0;2024-25;Miércoles;Tarde
+352;2025-02-08;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;12;3;9;0;9;75,0;2024-25;Sábado;Mañana
+353;2025-02-08;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;43,0;43,0;12;8;4;0;4;33,3;2024-25;Sábado;Mañana
+354;2025-02-09;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;Retiro;Paseo De Coches;Iciar;23,0;28,0;10;7;3;3;0;30,0;2024-25;Domingo;Mañana
+355;2025-02-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Paseo De Coches;Marta Águila;43,0;43,0;12;11;1;0;1;8,3;2024-25;Martes;Tarde
+356;2025-02-11;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;Barajas;Recinto Ferial;Vanesa;33,0;33,0;12;8;4;0;4;33,3;2024-25;Martes;Tarde
+357;2025-02-16;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:30;Nuevos Ministerios;Azca;Iciar;23,0;28,0;10;0;10;10;0;100,0;2024-25;Domingo;Mañana
+358;2025-02-17;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:15;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;10;5;5;0;5;50,0;2024-25;Lunes;Tarde
+359;2025-02-17;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;12;11;1;0;1;8,3;2024-25;Lunes;Tarde
+360;2025-02-23;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;13;3;3;0;18,8;2024-25;Domingo;Tarde
+361;2025-03-09;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;Retiro;Paseo De Coches;Marta Águila;23,0;28,0;10;3;7;7;0;70,0;2024-25;Domingo;Mañana
+362;2025-03-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta Águila;43,0;43,0;10;8;2;0;2;20,0;2024-25;Martes;Tarde
+363;2025-03-15;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;Retiro;Paseo De Coches;Jorge;33,0;33,0;12;2;10;0;10;83,3;2024-25;Sábado;Mañana
+364;2025-03-15;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;Retiro;Paseo De Coches;Jorge;43,0;43,0;12;7;5;0;5;41,7;2024-25;Sábado;Mañana
+365;2025-03-15;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo12-Irene3;33,0;33,0;10;4;6;0;6;60,0;2024-25;Sábado;Mañana
+366;2025-03-15;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo12-Irene3;43,0;43,0;10;6;4;0;4;40,0;2024-25;Sábado;Mañana
+367;2025-03-16;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;2;3.0;11:00;Retiro;Instalación Deportiva Retiro-Poeta;Marta Águila;27,0;33,0;16;14;2;2;0;12,5;2024-25;Domingo;Mañana
+368;2025-03-19;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Paseo De Coches;Guadalupe;43,0;43,0;12;11;1;0;1;8,3;2024-25;Miércoles;Tarde
+369;2025-03-22;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;San Sebastián de los Reyes;Parque De La Marina;Irene R;23,0;28,0;10;9;1;1;0;10,0;2024-25;Sábado;Mañana
+370;2025-03-23;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;11:00;Nuevos Ministerios;Azca;Iciar;23,0;28,0;10;5;5;5;0;50,0;2024-25;Domingo;Mañana
+371;2025-03-25;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;Barajas;Recinto Ferial;Vanesa;33,0;33,0;10;2;8;0;8;80,0;2024-25;Martes;Tarde
+372;2025-03-27;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;10;7;3;0;3;30,0;2024-25;Jueves;Tarde
+373;2025-03-30;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;David Rivas;33,0;33,0;10;0;10;0;10;100,0;2024-25;Domingo;Mañana
+374;2025-03-30;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;David Rivas;43,0;43,0;10;1;9;0;9;90,0;2024-25;Domingo;Mañana
+375;2025-03-30;Curso Patinaje Urbano Niños;Niños Disciplinas;Urbano;1;1.5;11:00;Juan Carlos I;Parking Auditorium;Vanesa;18,0;23,0;10;1;9;9;0;90,0;2024-25;Domingo;Mañana
+376;2025-03-30;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;33,0;33,0;12;8;4;0;4;33,3;2024-25;Domingo;Mañana
+377;2025-03-30;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Elena;43,0;43,0;12;10;2;0;2;16,7;2024-25;Domingo;Mañana
+378;2025-03-30;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;14;2;2;0;12,5;2024-25;Domingo;Tarde
+379;2025-03-31;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:15;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;8;2;6;0;6;75,0;2024-25;Lunes;Tarde
+380;2025-03-31;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;10;8;2;0;2;20,0;2024-25;Lunes;Tarde
+381;2025-04-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta Águila;43,0;43,0;10;0;10;0;10;100,0;2024-25;Martes;Tarde
+382;2025-04-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;43,0;43,0;10;6;4;0;4;40,0;2024-25;Miércoles;Tarde
+383;2025-04-22;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:30;Barajas;Recinto Ferial;Vanesa;33,0;33,0;16;2;14;0;14;87,5;2024-25;Martes;Tarde
+384;2025-04-27;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:30;Retiro;Paseo De Coches;Marta Águila;23,0;28,0;10;1;9;7;2;90,0;2024-25;Domingo;Mañana
+385;2025-04-27;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;10;6;5;1;37,5;2024-25;Domingo;Tarde
+386;2025-04-27;Curso Tecnificación Fs. Slalom;Freestyle Slalom;Tecnificación;1;2.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;23,0;28,0;16;12;4;4;0;25,0;2024-25;Domingo;Mañana
+387;2025-05-06;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Marta Águila;43,0;43,0;10;7;3;0;3;30,0;2024-25;Martes;Tarde
+388;2025-05-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:30;Barajas;Recinto Ferial;Vanesa;33,0;33,0;10;9;1;0;1;10,0;2024-25;Martes;Tarde
+389;2025-05-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;33,0;33,0;10;1;9;0;9;90,0;2024-25;Miércoles;Tarde
+390;2025-05-09;Curso Patinaje en Cuestas Básico;Cuestas;Básico;2;3.0;18:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene;27,0;33,0;10;4;6;6;0;60,0;2024-25;Viernes;Tarde
+391;2025-05-09;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;2;3.0;19:00;Metropolitano;Parking Exterior;David Rivas;27,0;33,0;14;4;10;8;2;71,4;2024-25;Viernes;Tarde
+392;2025-05-10;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Juan Carlos I;Parking Auditorium;Vanesa;23,0;28,0;10;5;5;5;0;50,0;2024-25;Sábado;Mañana
+393;2025-05-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa1-Iciar23;33,0;33,0;10;0;10;0;10;100,0;2024-25;Domingo;Mañana
+394;2025-05-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa1-Iciar23;43,0;43,0;10;5;5;0;5;50,0;2024-25;Domingo;Mañana
+395;2025-05-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;12:40;Retiro;Curva Rosaleda;David Rivas;43,0;43,0;8;1;7;0;7;87,5;2024-25;Domingo;Mañana
+396;2025-05-11;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;Retiro;Curva Rosaleda;David Rivas;33,0;33,0;12;2;10;0;10;83,3;2024-25;Domingo;Mañana
+397;2025-05-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;Retiro;Curva Rosaleda;David Rivas;43,0;43,0;10;2;8;0;8;80,0;2024-25;Domingo;Mañana
+398;2025-05-11;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;10:00;Ventas;Alrededores Plaza De Toros;Iciar;23,0;28,0;10;1;9;8;1;90,0;2024-25;Domingo;Mañana
+399;2025-05-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:15;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;10;0;10;0;10;100,0;2024-25;Lunes;Tarde
+400;2025-05-12;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;10;5;5;0;5;50,0;2024-25;Lunes;Tarde
+401;2025-05-17;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;10;1;9;0;9;90,0;2024-25;Sábado;Mañana
+402;2025-05-17;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;33,0;33,0;12;4;8;0;8;66,7;2024-25;Sábado;Mañana
+403;2025-05-17;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;43,0;43,0;12;8;4;0;4;33,3;2024-25;Sábado;Mañana
+404;2025-05-17;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;12:40;Retiro;Curva Rosaleda;David Rivas;33,0;33,0;12;5;7;0;7;58,3;2024-25;Sábado;Mañana
+405;2025-05-17;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Curva Rosaleda;David Rivas;33,0;33,0;10;0;10;0;10;100,0;2024-25;Sábado;Mañana
+406;2025-05-17;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Curva Rosaleda;David Rivas;43,0;43,0;8;4;4;0;4;50,0;2024-25;Sábado;Mañana
+407;2025-05-18;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;2;3.0;10:30;Retiro;Instalación Deportiva Retiro-Poeta;Marta Águila;27,0;33,0;16;6;10;9;1;62,5;2024-25;Domingo;Mañana
+408;2025-05-18;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Elena;23,0;28,0;16;10;6;1;5;37,5;2024-25;Domingo;Tarde
+409;2025-05-21;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;43,0;43,0;12;7;5;0;5;41,7;2024-25;Miércoles;Tarde
+410;2025-05-21;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Guadalupe;43,0;43,0;8;1;7;0;7;87,5;2024-25;Miércoles;Tarde
+411;2025-05-22;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;10;3;7;0;7;70,0;2024-25;Jueves;Tarde
+412;2025-05-24;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;San Sebastián de los Reyes;Parque De La Marina;Irene R;23,0;28,0;10;7;3;3;0;30,0;2024-25;Sábado;Mañana
+413;2025-06-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;33,0;33,0;10;0;10;0;10;100,0;2024-25;Domingo;Mañana
+414;2025-06-01;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;33,0;33,0;12;4;8;0;8;66,7;2024-25;Domingo;Mañana
+415;2025-06-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;43,0;43,0;12;5;7;0;7;58,3;2024-25;Domingo;Mañana
+416;2025-06-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:00;Retiro;Instalación Deportiva Retiro-Poeta;Mileni;33,0;33,0;10;0;10;0;10;100,0;2024-25;Domingo;Mañana
+417;2025-06-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Mileni;43,0;43,0;8;0;8;0;8;100,0;2024-25;Domingo;Mañana
+418;2025-06-01;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:00;Nuevos Ministerios;Azca;Marta Águila;23,0;28,0;10;1;9;9;0;90,0;2024-25;Domingo;Mañana
+419;2025-06-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;12:40;Retiro;Curva Rosaleda;David Rivas;43,0;43,0;10;1;9;0;9;90,0;2024-25;Domingo;Mañana
+420;2025-06-01;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;11:30;Retiro;Curva Rosaleda;David Rivas;33,0;33,0;12;5;7;0;7;58,3;2024-25;Domingo;Mañana
+421;2025-06-01;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;10:00;Retiro;Curva Rosaleda;David Rivas;43,0;43,0;10;6;4;1;3;40,0;2024-25;Domingo;Mañana
+422;2025-06-02;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;19:30;Madrid Río;Explanada Matadero;Guadalupe;43,0;43,0;10;5;5;0;5;50,0;2024-25;Lunes;Tarde
+423;2025-06-02;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:30;Madrid Río;Explanada Matadero;Guadalupe;33,0;33,0;12;9;3;0;3;25,0;2024-25;Lunes;Tarde
+424;2025-06-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Juan Carlos;43,0;43,0;8;1;7;0;7;87,5;2024-25;Lunes;Tarde
+425;2025-06-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Marta Águila;43,0;43,0;8;7;1;0;1;12,5;2024-25;Martes;Tarde
+426;2025-06-03;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;18:30;Barajas;Recinto Ferial;Vanesa;33,0;33,0;12;7;5;0;5;41,7;2024-25;Martes;Tarde
+427;2025-06-04;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;33,0;33,0;12;4;8;0;8;66,7;2024-25;Miércoles;Tarde
+428;2025-06-06;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;2;3.0;19:00;Retiro;Curva Rosaleda;Marta Águila;27,0;33,0;12;3;9;9;0;75,0;2024-25;Viernes;Tarde
+429;2025-06-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo12-Vanesa3;33,0;33,0;10;2;8;0;8;80,0;2024-25;Sábado;Mañana
+430;2025-06-07;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo12-Vanesa3;33,0;33,0;12;10;2;0;2;16,7;2024-25;Sábado;Mañana
+431;2025-06-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo12-Vanesa3;43,0;43,0;10;8;2;0;2;20,0;2024-25;Sábado;Mañana
+432;2025-06-07;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;Retiro;Curva Rosaleda;Yomi;33,0;33,0;12;6;6;0;6;50,0;2024-25;Sábado;Mañana
+433;2025-06-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Curva Rosaleda;Yomi;43,0;43,0;8;4;4;0;4;50,0;2024-25;Sábado;Mañana
+434;2025-06-11;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;2;3.0;20:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;33,0;33,0;12;8;4;1;3;33,3;2024-25;Miércoles;Tarde
+435;2025-06-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;43,0;43,0;12;10;2;0;2;16,7;2024-25;Jueves;Tarde
+436;2025-06-22;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Juan Carlos I;Parking Auditorium;Vanesa;23,0;28,0;10;8;2;1;1;20,0;2024-25;Domingo;Mañana
+437;2025-06-23;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Guadalupe;43,0;43,0;10;0;10;0;10;100,0;2024-25;Lunes;Tarde
+438;2025-07-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:20;Retiro;Paseo De Coches;Mileni;30,0;43,0;10;7;3;0;3;30,0;2024-25;Martes;Tarde
+439;2025-07-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:00;Retiro;Paseo De Coches;Mileni;30,0;43,0;12;10;2;0;2;16,7;2024-25;Martes;Tarde
+440;2025-07-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;30,0;43,0;10;6;4;0;4;40,0;2024-25;Martes;Tarde
+441;2025-07-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;22,0;33,0;10;5;5;0;5;50,0;2024-25;Martes;Tarde
+442;2025-07-01;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;4.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;14;6;8;8;0;57,1;2024-25;Martes;Tarde
+443;2025-07-01;Curso Refuerzo Patinaje Experto 1;Refuerzo Adultos;Experto 1;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;14;14;0;0;0;0,0;2024-25;Martes;Tarde
+444;2025-07-02;Curso Patinaje en Cuestas Med/Avz;Cuestas;Med/avz;3;4.0;20:20;Juan Carlos I;Parking Auditorium;Iciar;30,0;43,0;10;1;9;7;2;90,0;2024-25;Miércoles;Tarde
+445;2025-07-02;Curso Patinaje en Cuestas Bás/Med;Cuestas;Bás/med;3;4.0;19:00;Juan Carlos I;Parking Auditorium;Iciar;30,0;43,0;10;4;6;4;2;60,0;2024-25;Miércoles;Tarde
+446;2025-07-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;30,0;43,0;8;3;5;0;5;62,5;2024-25;Miércoles;Tarde
+447;2025-07-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Madrid Río;Explanada Matadero;Yomi;22,0;33,0;10;3;7;0;7;70,0;2024-25;Miércoles;Tarde
+448;2025-07-02;Curso Refuerzo Patinaje Experto 2;Refuerzo Adultos;Experto 2;3;4.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;7;7;7;0;50,0;2024-25;Miércoles;Tarde
+449;2025-07-02;Curso de Derrapes;Otros;Curso de Derrapes;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;3;11;10;1;78,6;2024-25;Miércoles;Tarde
+450;2025-07-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:00;Retiro;Paseo De Coches;Yomi;13,0;22,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+451;2025-07-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;Yomi;22,0;33,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+452;2025-07-05;Curso Wizard Iniciación;Otros;Curso Wizard Iniciación;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;14;1;13;13;0;92,9;2024-25;Sábado;Mañana
+453;2025-07-05;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;09:30;Plaza De Castilla;Intercambiador Metro;Javi;18,0;28,0;10;10;0;0;0;0,0;2024-25;Sábado;Mañana
+454;2025-07-06;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;09:30;Retiro;Paseo De Coches;Iciar;18,0;28,0;10;0;10;10;0;100,0;2024-25;Domingo;Mañana
+455;2025-07-06;Curso Iniciación Artístico;Otros;Curso Iniciación Artístico;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;14;1;13;13;0;92,9;2024-25;Domingo;Mañana
+456;2025-07-07;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;19:00;Retiro;Paseo De Coches;Marta Águila;30,0;43,0;12;9;3;3;0;25,0;2024-25;Lunes;Tarde
+457;2025-07-10;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;2;4.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Marta Águila;30,0;43,0;12;6;6;5;1;50,0;2024-25;Jueves;Tarde
+458;2025-07-11;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;19:30;Juan Carlos I;Parking Auditorium;Alex;18,0;28,0;10;1;9;7;2;90,0;2024-25;Viernes;Tarde
+459;2025-07-12;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:00;Retiro;Paseo De Coches;Alex;13,0;22,0;12;7;5;0;5;41,7;2024-25;Sábado;Mañana
+460;2025-07-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:30;Retiro;Paseo De Coches;Alex;22,0;33,0;12;9;3;0;3;25,0;2024-25;Sábado;Mañana
+461;2025-07-12;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;13,0;22,0;10;8;2;0;2;20,0;2024-25;Sábado;Mañana
+462;2025-07-12;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;22,0;33,0;10;5;5;0;5;50,0;2024-25;Sábado;Mañana
+463;2025-07-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:20;Madrid Río;Explanada Matadero;Marta Águila;30,0;43,0;10;4;6;0;6;60,0;2024-25;Miércoles;Tarde
+464;2025-07-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:00;Madrid Río;Explanada Matadero;Marta Águila;30,0;43,0;12;9;3;0;3;25,0;2024-25;Miércoles;Tarde
+465;2025-07-16;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:20;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;30,0;43,0;16;7;9;9;0;56,2;2024-25;Miércoles;Tarde
+466;2025-07-16;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;30,0;43,0;16;7;9;5;4;56,2;2024-25;Miércoles;Tarde
+467;2025-07-16;Curso Tecnificación Tiros Hockey;Hockey;Tecnificación tiros;3;4.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;5;9;9;0;64,3;2024-25;Miércoles;Tarde
+468;2025-07-16;Curso Hockey Tecnificación;Hockey;Tecnificación;3;4.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;9;5;5;0;35,7;2024-25;Miércoles;Tarde
+469;2025-07-16;Curso Iniciación Hockey;Hockey;Iniciación;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;4;10;6;4;71,4;2024-25;Miércoles;Tarde
+470;2025-07-16;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;20:20;El Cañaveral;Calle Villagonzalo Pedernales;David Rivas;30,0;43,0;14;7;7;7;0;50,0;2024-25;Miércoles;Tarde
+471;2025-07-16;Curso Tecnificación Pat. Velocidad;Velocidad;Tecnificación;3;4.0;19:00;Metropolitano;Parking Exterior;David Rivas;30,0;43,0;14;11;3;2;1;21,4;2024-25;Miércoles;Tarde
+472;2025-07-17;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;20:20;Madrid Río;Explanada Matadero;David Rivas;30,0;43,0;12;5;7;4;3;58,3;2024-25;Jueves;Tarde
+473;2025-07-17;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;4.0;19:00;Madrid Río;Explanada Matadero;David Rivas;30,0;43,0;12;8;4;3;1;33,3;2024-25;Jueves;Tarde
+474;2025-07-17;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;30,0;43,0;12;10;2;0;2;16,7;2024-25;Jueves;Tarde
+475;2025-07-17;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;22,0;33,0;12;5;7;0;7;58,3;2024-25;Jueves;Tarde
+476;2025-07-17;Curso Tecnificación Fs. Slalom;Freestyle Slalom;Tecnificación;3;4.0;20:20;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;16;8;8;8;0;50,0;2024-25;Jueves;Tarde
+477;2025-07-17;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;16;11;5;5;0;31,2;2024-25;Jueves;Tarde
+478;2025-07-17;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;30,0;43,0;10;6;4;0;4;40,0;2024-25;Jueves;Tarde
+479;2025-07-17;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:10;Barajas;Recinto Ferial;Vanesa;22,0;33,0;10;6;4;0;4;40,0;2024-25;Jueves;Tarde
+480;2025-07-19;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;09:30;Retiro;Paseo De Coches;David Rivas;18,0;28,0;10;6;4;3;1;40,0;2024-25;Sábado;Mañana
+481;2025-07-19;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:00;Retiro;Paseo De Coches;Marta Águila;13,0;22,0;10;2;8;0;8;80,0;2024-25;Sábado;Mañana
+482;2025-07-19;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;Marta Águila;22,0;33,0;10;4;6;0;6;60,0;2024-25;Sábado;Mañana
+483;2025-07-19;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;13,0;22,0;12;11;1;0;1;8,3;2024-25;Sábado;Mañana
+484;2025-07-19;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Samuel;22,0;33,0;12;10;2;0;2;16,7;2024-25;Sábado;Mañana
+485;2025-07-19;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;1;1.5;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Alex;13,0;23,0;14;12;2;2;0;14,3;2024-25;Sábado;Mañana
+486;2025-07-20;Curso Iniciación Pumptrack Niños;Niños Disciplinas;Pumptrack;1;1.5;10:30;Torrejón De Ardoz;Parque Del Ocio;Alex;13,0;23,0;10;7;3;2;1;30,0;2024-25;Domingo;Mañana
+487;2025-07-20;Curso Iniciación Pumptrack;Otros;Curso Iniciación Pumptrack;1;2.0;08:30;Torrejón De Ardoz;Parque Del Ocio;Alex;18,0;28,0;10;3;7;7;0;70,0;2024-25;Domingo;Mañana
+488;2025-09-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Barajas;Recinto Ferial;Vanesa;30,0;43,0;10;5;5;0;5;50,0;2025-26;Martes;Tarde
+489;2025-09-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:00;Barajas;Recinto Ferial;Vanesa;22,0;33,0;10;8;2;0;2;20,0;2025-26;Martes;Tarde
+490;2025-09-02;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;20:10;Metropolitano;Parking Exterior;David Rivas;30,0;43,0;14;6;8;8;0;57,1;2025-26;Martes;Tarde
+491;2025-09-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Retiro;Paseo De Coches;Marta Águila;30,0;43,0;10;6;4;1;3;40,0;2025-26;Miércoles;Tarde
+492;2025-09-03;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:50;Retiro;Paseo De Coches;Marta Águila;30,0;43,0;12;12;0;0;0;0,0;2025-26;Miércoles;Tarde
+493;2025-09-03;Curso Wizard Iniciación;Otros;Curso Wizard Iniciación;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;3;11;9;2;78,6;2025-26;Miércoles;Tarde
+494;2025-09-03;Curso Artístico Iniciación;Otros;Curso Artístico Iniciación;3;4.0;18:50;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;6;8;6;2;57,1;2025-26;Miércoles;Tarde
+495;2025-09-06;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;13,0;22,0;10;0;10;2;8;100,0;2025-26;Sábado;Mañana
+496;2025-09-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;22,0;33,0;10;1;9;2;7;90,0;2025-26;Sábado;Mañana
+497;2025-09-06;Curso Iniciación Hockey;Hockey;Iniciación;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;14;14;0;0;0;0,0;2025-26;Sábado;Mañana
+498;2025-09-07;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;1;1.5;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;13,0;23,0;14;14;0;0;0;0,0;2025-26;Domingo;Mañana
+499;2025-09-13;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:10;Retiro;Paseo De Coches;David Rivas;13,0;22,0;13;4;9;2;7;69,2;2025-26;Sábado;Mañana
+500;2025-09-13;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:30;Retiro;Paseo De Coches;David Rivas;22,0;33,0;12;4;8;2;6;66,7;2025-26;Sábado;Mañana
+501;2025-09-13;Curso Artístico Iniciación Nivel 2;Otros;Curso Artístico Iniciación Nivel 2;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;14;8;6;6;0;42,9;2025-26;Sábado;Mañana
+502;2025-09-14;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;16;11;5;5;0;31,2;2025-26;Domingo;Tarde
+503;2025-09-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Retiro;Paseo De Coches;Mileni;30,0;43,0;10;6;4;1;3;40,0;2025-26;Martes;Tarde
+504;2025-09-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;18:50;Retiro;Paseo De Coches;Mileni;30,0;43,0;12;12;0;0;0;0,0;2025-26;Martes;Tarde
+505;2025-09-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;30,0;43,0;10;8;2;0;2;20,0;2025-26;Martes;Tarde
+506;2025-09-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;22,0;33,0;10;0;10;0;10;100,0;2025-26;Martes;Tarde
+507;2025-09-16;Curso Refuerzo Patinaje Experto 1;Refuerzo Adultos;Experto 1;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;14;5;9;9;0;64,3;2025-26;Martes;Tarde
+508;2025-09-16;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;4.0;18:50;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;30,0;43,0;14;9;5;5;0;35,7;2025-26;Martes;Tarde
+509;2025-09-16;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;20:10;Metropolitano;Parking Exterior;David Rivas;30,0;43,0;14;12;2;2;0;14,3;2025-26;Martes;Tarde
+510;2025-09-16;Curso Tecnificación Pat. Velocidad;Velocidad;Tecnificación;3;4.0;19:30;Metropolitano;Parking Exterior;David Rivas;30,0;43,0;14;6;8;7;1;57,1;2025-26;Martes;Tarde
+511;2025-09-17;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;4.0;20:10;Retiro;Paseo De Coches;Marta Águila;30,0;43,0;12;4;8;7;1;66,7;2025-26;Miércoles;Tarde
+512;2025-09-17;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;18:50;Retiro;Paseo De Coches;Marta Águila;30,0;43,0;12;7;5;4;1;41,7;2025-26;Miércoles;Tarde
+513;2025-09-17;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;30,0;43,0;16;16;0;0;0;0,0;2025-26;Miércoles;Tarde
+514;2025-09-17;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;4.0;18:50;San Sebastián de los Reyes;Pista Patinaje Dehesa;Irene Rodríguez;30,0;43,0;12;9;3;2;1;25,0;2025-26;Miércoles;Tarde
+515;2025-09-17;Curso Hockey Tecnificación;Hockey;Tecnificación;3;4.0;20:10;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;5;9;9;0;64,3;2025-26;Miércoles;Tarde
+516;2025-09-17;Curso de Derrapes;Otros;Curso de Derrapes;3;4.0;18:50;Retiro;Instalación Deportiva Retiro-Poeta;Javi;30,0;43,0;14;0;14;13;1;100,0;2025-26;Miércoles;Tarde
+517;2025-09-20;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;2;3.0;11:10;Retiro;Paseo De Coches;Juan Carlos;22,0;33,0;12;9;3;3;0;25,0;2025-26;Sábado;Mañana
+518;2025-09-20;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;2;3.0;09:30;Retiro;Paseo De Coches;Juan Carlos;22,0;33,0;12;9;3;2;1;25,0;2025-26;Sábado;Mañana
+519;2025-09-20;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;13,0;22,0;10;1;9;0;9;90,0;2025-26;Sábado;Mañana
+520;2025-09-20;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;22,0;33,0;10;5;5;0;5;50,0;2025-26;Sábado;Mañana
+521;2025-09-20;Curso Wizard Iniciación Nivel 2;Otros;Curso Wizard Iniciación Nivel 2;1;2.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;18,0;28,0;14;11;3;2;1;21,4;2025-26;Sábado;Mañana
+522;2025-09-22;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:40;Madrid Río;Explanada Matadero;Yomi;30,0;43,0;8;2;6;0;6;75,0;2025-26;Lunes;Tarde
+523;2025-09-22;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:30;Madrid Río;Explanada Matadero;Yomi;22,0;33,0;10;1;9;0;9;90,0;2025-26;Lunes;Tarde
+524;2025-09-27;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:40;Retiro;Paseo De Coches;Yomi;13,0;22,0;10;2;8;0;8;80,0;2025-26;Sábado;Mañana
+525;2025-09-27;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:00;Retiro;Paseo De Coches;Yomi;22,0;33,0;10;4;6;0;6;60,0;2025-26;Sábado;Mañana
+526;2025-09-27;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Juan Carlos I;Parking Auditorium;Vanesa;18,0;24,0;10;7;3;3;0;30,0;2025-26;Sábado;Mañana
+527;2025-09-27;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;13,0;22,0;11;-2;13;3;10;118,2;2025-26;Sábado;Mañana
+528;2025-09-27;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;22,0;33,0;12;10;2;0;2;16,7;2025-26;Sábado;Mañana
+529;2025-09-28;Curso Patinaje Urbano Niños;Niños Disciplinas;Urbano;1;1.5;11:00;Juan Carlos I;Parking Auditorium;Vanesa;13,0;21,0;10;5;5;4;1;50,0;2025-26;Domingo;Mañana
+530;2025-10-03;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;28,0;34,0;10;6;4;0;4;40,0;2025-26;Viernes;Tarde
+531;2025-10-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Paseo De Coches;Óscar;28,0;34,0;10;4;6;0;6;60,0;2025-26;Sábado;Mañana
+532;2025-10-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Paseo De Coches;Óscar;36,0;44,0;10;5;5;0;5;50,0;2025-26;Sábado;Mañana
+533;2025-10-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:10;Retiro;Paseo De Coches;Marta Águila;28,0;34,0;10;3;7;0;7;70,0;2025-26;Domingo;Mañana
+534;2025-10-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;28,0;34,0;10;0;10;1;9;100,0;2025-26;Domingo;Mañana
+535;2025-10-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;36,0;44,0;10;9;1;0;1;10,0;2025-26;Domingo;Mañana
+536;2025-10-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta Águila;36,0;44,0;10;6;4;0;4;40,0;2025-26;Martes;Tarde
+537;2025-10-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;9;1;0;1;10,0;2025-26;Miércoles;Tarde
+538;2025-10-09;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;8;1;7;1;6;87,5;2025-26;Jueves;Tarde
+539;2025-10-11;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:00;Retiro;Paseo De Coches;David Rivas;21,0;24,0;10;3;7;7;0;70,0;2025-26;Sábado;Mañana
+540;2025-10-18;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;7;9;9;0;56,2;2025-26;Sábado;Tarde
+541;2025-10-18;Curso Artístico Iniciación Nivel 2;Otros;Curso Artístico Iniciación Nivel 2;1;2.0;17:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;14;10;4;3;1;28,6;2025-26;Sábado;Tarde
+542;2025-10-19;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;8;8;4;4;50,0;2025-26;Domingo;Tarde
+543;2025-11-02;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas12-Irene R3;28,0;34,0;10;0;10;0;10;100,0;2025-26;Domingo;Mañana
+544;2025-11-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas12-Irene R3;36,0;44,0;10;6;4;0;4;40,0;2025-26;Domingo;Mañana
+545;2025-11-02;Curso Iniciación Hockey;Hockey;Iniciación;1;2.0;10:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;14;7;7;7;0;50,0;2025-26;Domingo;Mañana
+546;2025-11-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Mileni;36,0;44,0;10;9;1;0;1;10,0;2025-26;Martes;Tarde
+547;2025-11-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;9;1;0;1;10,0;2025-26;Miércoles;Tarde
+548;2025-11-22;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;10:00;Retiro;Paseo De Coches;Marta Águila;28,0;34,0;12;3;9;9;0;75,0;2025-26;Sábado;Mañana
+549;2025-11-22;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;Retiro;Paseo De Coches;Óscar;28,0;34,0;10;4;6;0;6;60,0;2025-26;Sábado;Mañana
+550;2025-11-22;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;Retiro;Paseo De Coches;Óscar;36,0;44,0;10;7;3;0;3;30,0;2025-26;Sábado;Mañana
+551;2025-11-28;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;18:30;Retiro;Paseo De Coches;Marta;21,0;24,0;10;10;0;0;0;0,0;2025-26;Viernes;Tarde
+552;2025-11-30;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;4;12;12;0;75,0;2025-26;Domingo;Tarde
+553;2025-11-30;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;17:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;-2;18;14;4;112,5;2025-26;Domingo;Tarde
+554;2025-12-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta;36,0;44,0;10;8;2;0;2;20,0;2025-26;Martes;Tarde
+555;2025-12-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;9;1;0;1;10,0;2025-26;Miércoles;Tarde
+556;2025-12-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;8;8;0;0;0;0,0;2025-26;Jueves;Tarde
+557;2025-12-12;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Javi;21,0;24,0;16;6;10;10;0;62,5;2025-26;Viernes;Tarde
+558;2025-12-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:10;Retiro;Paseo De Coches;David Rivas;21,0;24,0;10;8;2;0;2;20,0;2025-26;Sábado;Mañana
+559;2025-12-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:30;Retiro;Paseo De Coches;David Rivas;28,0;34,0;10;6;4;0;4;40,0;2025-26;Sábado;Mañana
+560;2025-12-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;12:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;21,0;24,0;11;7;4;0;4;36,4;2025-26;Sábado;Mañana
+561;2025-12-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;28,0;34,0;10;10;0;0;0;0,0;2025-26;Sábado;Mañana
+562;2025-12-14;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;11:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;18;5;13;12;1;72,2;2025-26;Domingo;Mañana
+563;2026-01-10;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;Retiro;Paseo De Coches;Óscar;28,0;34,0;10;4;6;0;6;60,0;2025-26;Sábado;Mañana
+564;2026-01-10;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;11:00;Retiro;Paseo De Coches;Óscar;36,0;44,0;10;7;3;0;3;30,0;2025-26;Sábado;Mañana
+565;2026-01-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;28,0;34,0;10;0;10;0;10;100,0;2025-26;Domingo;Mañana
+566;2026-01-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;11:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Rivas;36,0;44,0;10;10;0;0;0;0,0;2025-26;Domingo;Mañana
+567;2026-01-11;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:15;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;6;10;10;0;62,5;2025-26;Domingo;Tarde
+568;2026-01-11;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;17:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;18;9;9;4;5;50,0;2025-26;Domingo;Tarde
+569;2026-01-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;4;6;0;6;60,0;2025-26;Miércoles;Tarde
+570;2026-01-19;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Madrid Río;Explanada Matadero;Guadalupe;36,0;44,0;10;2;8;0;8;80,0;2025-26;Lunes;Tarde
+571;2026-01-19;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:15;Madrid Río;Explanada Matadero;Guadalupe;28,0;34,0;10;9;1;0;1;10,0;2025-26;Lunes;Tarde
+572;2026-01-20;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta;36,0;44,0;10;6;4;0;4;40,0;2025-26;Martes;Tarde
+573;2026-01-22;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;28,0;34,0;10;10;0;0;0;0,0;2025-26;Jueves;Tarde
+574;2026-02-05;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Paloma;28,0;34,0;10;8;2;0;2;20,0;2025-26;Jueves;Tarde
+575;2026-02-08;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;12:10;Retiro;Paseo De Coches;Marta;36,0;44,0;10;3;7;0;7;70,0;2025-26;Domingo;Mañana
+576;2026-02-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;12;12;0;0;0;0,0;2025-26;Miércoles;Tarde
+577;2026-02-14;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;4.0;11:00;Metropolitano;Parking Exterior;David Rivas;36,0;44,0;14;13;1;1;0;7,1;2025-26;Sábado;Mañana
+578;2026-02-15;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;11:10;Retiro;Paseo De Coches;David Rivas;21,0;24,0;10;0;10;9;1;100,0;2025-26;Domingo;Mañana
+579;2026-02-15;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;28,0;34,0;12;6;6;0;6;50,0;2025-26;Domingo;Mañana
+580;2026-02-15;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;28,0;34,0;10;6;4;0;4;40,0;2025-26;Domingo;Mañana
+581;2026-02-15;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;6;4;0;4;40,0;2025-26;Domingo;Mañana
+582;2026-02-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Madrid Río;Explanada Matadero;Guadalupe;36,0;44,0;12;7;5;0;5;41,7;2025-26;Lunes;Tarde
+583;2026-02-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:15;Madrid Río;Explanada Matadero;Guadalupe;28,0;34,0;10;10;0;0;0;0,0;2025-26;Lunes;Tarde
+584;2026-02-21;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;4.0;12:10;Retiro;Paseo De Coches;Marta;36,0;44,0;12;0;12;12;0;100,0;2025-26;Sábado;Mañana
+585;2026-02-21;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Paseo De Coches;Óscar;28,0;34,0;10;10;0;0;0;0,0;2025-26;Sábado;Mañana
+586;2026-02-21;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;Retiro;Paseo De Coches;Oscar;36,0;44,0;12;9;3;0;3;25,0;2025-26;Sábado;Mañana
+587;2026-02-22;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:15;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;8;8;8;0;50,0;2025-26;Domingo;Tarde
+588;2026-02-22;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;17:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;18;15;3;2;1;16,7;2025-26;Domingo;Tarde
+589;2026-02-24;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Paseo De Coches;Marta;36,0;44,0;12;9;3;0;3;25,0;2025-26;Martes;Tarde
+590;2026-03-01;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;12:10;Retiro;Paseo De Coches;Marta;36,0;44,0;12;3;9;1;8;75,0;2025-26;Domingo;Mañana
+591;2026-03-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;10;0;0;0;0,0;2025-26;Miércoles;Tarde
+592;2026-03-05;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:00;Barajas;Recinto Ferial;Vanesa;36,0;44,0;10;9;1;0;1;10,0;2025-26;Jueves;Tarde
+593;2026-03-12;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;10;4;6;0;6;60,0;2025-26;Jueves;Tarde
+594;2026-03-14;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;12:40;Retiro;Paseo De Coches;David Rivas;28,0;34,0;12;11;1;0;1;8,3;2025-26;Sábado;Mañana
+595;2026-03-14;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Paseo De Coches;David Rivas;28,0;34,0;10;3;7;0;7;70,0;2025-26;Sábado;Mañana
+596;2026-03-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Paseo De Coches;David Rivas;36,0;44,0;10;2;8;0;8;80,0;2025-26;Sábado;Mañana
+597;2026-03-14;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;6;10;10;0;62,5;2025-26;Sábado;Tarde
+598;2026-03-15;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;11:10;Retiro;Paseo De Coches;David Rivas;21,0;24,0;10;2;8;8;0;80,0;2025-26;Domingo;Mañana
+599;2026-03-15;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar;28,0;34,0;10;1;9;0;9;90,0;2025-26;Domingo;Mañana
+600;2026-03-15;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar;36,0;44,0;10;5;5;0;5;50,0;2025-26;Domingo;Mañana
+601;2026-04-09;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;12;11;1;0;1;8,3;2025-26;Jueves;Tarde
+602;2026-04-11;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;2;3.0;12:10;Retiro;Paseo De Coches;Marta;28,0;34,0;12;0;12;9;3;100,0;2025-26;Sábado;Mañana
+603;2026-04-12;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;10:30;Retiro;Paseo De Coches;David Rivas;21,0;24,0;10;1;9;8;1;90,0;2025-26;Domingo;Mañana
+604;2026-04-13;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;10;7;3;1;2;30,0;2025-26;Lunes;Tarde
+605;2026-04-13;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;18:15;Madrid Río;Explanada Matadero;Yomi;28,0;34,0;10;9;1;0;1;10,0;2025-26;Lunes;Tarde
+606;2026-04-14;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Paseo De Coches;Marta;36,0;44,0;10;3;7;0;7;70,0;2025-26;Martes;Tarde
+607;2026-04-15;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Javi;28,0;34,0;10;0;10;0;10;100,0;2025-26;Miércoles;Tarde
+608;2026-04-15;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;6;4;0;4;40,0;2025-26;Miércoles;Tarde
+609;2026-04-19;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;12:10;Retiro;Paseo De Coches;Juancar1-Marta23;36,0;44,0;10;1;9;0;9;90,0;2025-26;Domingo;Mañana
+610;2026-04-19;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni;28,0;34,0;10;0;10;0;10;100,0;2025-26;Domingo;Mañana
+611;2026-04-19;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni;28,0;34,0;12;1;11;0;11;91,7;2025-26;Domingo;Mañana
+612;2026-04-19;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni;36,0;44,0;12;7;5;0;5;41,7;2025-26;Domingo;Mañana
+613;2026-04-25;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;12:40;Retiro;Paseo De Coches;David Rivas;28,0;34,0;10;2;8;0;8;80,0;2025-26;Sábado;Mañana
+614;2026-04-25;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:30;Retiro;Paseo De Coches;David Rivas;28,0;34,0;12;1;11;0;11;91,7;2025-26;Sábado;Mañana
+615;2026-04-25;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;10:00;Retiro;Paseo De Coches;David Rivas;36,0;44,0;10;1;9;0;9;90,0;2025-26;Sábado;Mañana
+616;2026-04-25;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;18:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;7;9;9;0;56,2;2025-26;Sábado;Tarde
+617;2026-05-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Jorge;36,0;44,0;8;0;8;0;8;100,0;2025-26;Lunes;Tarde
+618;2026-05-06;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;10;4;6;0;6;60,0;2025-26;Miércoles;Tarde
+619;2026-05-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;8;6;2;0;2;25,0;2025-26;Jueves;Tarde
+620;2026-05-07;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:30;Barajas;Recinto Ferial;Vanesa;36,0;44,0;10;10;0;0;0;0,0;2025-26;Jueves;Tarde
+621;2026-05-07;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:30;Barajas;Recinto Ferial;Vanesa;28,0;34,0;10;10;0;0;0;0,0;2025-26;Jueves;Tarde
+622;2026-05-08;Curso Iniciación Hockey Niños;Niños Disciplinas;Hockey;3;3.0;18:30;Retiro;Instalación Deportiva Retiro-Poeta;Alex;28,0;34,0;12;11;1;0;1;8,3;2025-26;Viernes;Tarde
+623;2026-05-12;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Marta;36,0;44,0;10;4;6;1;5;60,0;2025-26;Martes;Tarde
+624;2026-05-13;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;17:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Javi;28,0;34,0;12;8;4;0;4;33,3;2025-26;Miércoles;Tarde
+625;2026-05-23;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;09:40;Retiro;Curva Rosaleda;Marta;36,0;44,0;8;2;6;0;6;75,0;2025-26;Sábado;Mañana
+626;2026-05-24;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;11:30;Retiro;Instalación Deportiva Retiro-Poeta;Jorge;28,0;34,0;10;2;8;0;8;80,0;2025-26;Domingo;Mañana
+627;2026-05-24;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Jorge;36,0;44,0;10;3;7;0;7;70,0;2025-26;Domingo;Mañana
+628;2026-05-24;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;12:10;Retiro;Curva Rosaleda;Marta;36,0;44,0;10;1;9;0;9;90,0;2025-26;Domingo;Mañana
+629;2026-05-24;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;10:00;Palacio Real;Plaza De Oriente;David Rivas;21,0;24,0;10;0;10;9;1;100,0;2025-26;Domingo;Mañana
+630;2026-05-27;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:10;San Sebastián de los Reyes;Pista Patinaje Dehesa;David Olmo;36,0;44,0;12;5;7;0;7;58,3;2025-26;Miércoles;Tarde
+631;2026-05-30;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;16;4;12;12;0;75,0;2025-26;Sábado;Tarde
+632;2026-05-30;Curso Iniciación Hockey;Hockey;Iniciación;1;2.0;10:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;14;6;8;2;6;57,1;2025-26;Sábado;Mañana
+633;2026-05-31;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni12-DavidRivas3;28,0;34,0;12;7;5;0;5;41,7;2025-26;Domingo;Mañana
+634;2026-05-31;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;10:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni12-DavidRivas3;28,0;34,0;10;0;10;0;10;100,0;2025-26;Domingo;Mañana
+635;2026-05-31;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;09:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Mileni12-DavidRivas3;36,0;44,0;10;4;6;0;6;60,0;2025-26;Domingo;Mañana
+636;2026-05-31;Curso Tecnificación: Cruce en Curva;Otros;Curso Tecnificación: Cruce en Curva;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;21,0;24,0;14;3;11;11;0;78,6;2025-26;Domingo;Tarde
+637;2026-06-02;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;19:30;Retiro;Curva Rosaleda;Marta;36,0;44,0;10;3;7;1;6;70,0;2025-26;Martes;Tarde
+638;2026-06-03;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;19:30;Retiro;Curva Rosaleda;Marta;36,0;44,0;8;3;5;0;5;62,5;2025-26;Miércoles;Tarde
+639;2026-06-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;18:45;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;36,0;44,0;10;10;0;0;0;0,0;2025-26;Jueves;Tarde
+640;2026-06-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;17:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;28,0;34,0;10;7;3;0;3;30,0;2025-26;Jueves;Tarde
+641;2026-06-06;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;11:10;Retiro;Curva Rosaleda;David Rivas;28,0;34,0;12;8;4;0;4;33,3;2025-26;Sábado;Mañana
+642;2026-06-06;Curso Patinaje Básico 2 Niños;Niños Básico 2;;3;3.0;10:00;Retiro;Curva Rosaleda;David Rivas;28,0;34,0;12;7;5;0;5;41,7;2025-26;Sábado;Mañana
+643;2026-06-06;Curso Iniciación Patinaje Nivel 2;Iniciación Adultos Nivel 2;;3;4.0;09:00;Retiro;Curva Rosaleda;David Rivas;36,0;44,0;10;10;0;0;0;0,0;2025-26;Sábado;Mañana
+644;2026-06-07;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:00;Retiro;Instalación Deportiva Retiro-Poeta;Javi;21,0;24,0;18;10;8;7;1;44,4;2025-26;Domingo;Tarde
+645;2026-06-07;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;10:00;Nuevos Ministerios;Azca;Iciar;21,0;24,0;10;0;10;10;0;100,0;2025-26;Domingo;Mañana
+646;2026-06-08;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;4.0;19:30;Retiro;Curva Rosaleda;Jorge;36,0;44,0;10;5;5;0;5;50,0;2025-26;Lunes;Tarde
+647;2026-06-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;4.0;20:10;Madrid Río;Explanada Matadero;Yomi;36,0;44,0;8;0;8;0;8;100,0;2025-26;Jueves;Tarde
+648;2026-06-12;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Javi;21,0;24,0;16;8;8;8;0;50,0;2025-26;Viernes;Tarde
+649;2026-06-14;Curso Urbano Patinaje Avanzado;Urbano;Avanzado;1;2.0;10:00;Nuevos Ministerios;Azca;Iciar;21,0;24,0;10;0;10;8;2;100,0;2025-26;Domingo;Mañana
+650;2026-07-01;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;20:30;Retiro;Paseo De Coches;Marta;23,0;34,0;12;3;9;6;3;75,0;2025-26;Miércoles;Tarde
+651;2026-07-01;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;19:30;Retiro;Paseo De Coches;Marta;23,0;34,0;12;3;9;5;4;75,0;2025-26;Miércoles;Tarde
+652;2026-07-01;Curso Patinaje en Cuestas Med/Avz;Cuestas;Med/avz;3;3.0;20:30;Juan Carlos I;Parking Auditorium;Iciar;23,0;34,0;10;0;10;9;1;100,0;2025-26;Miércoles;Tarde
+653;2026-07-01;Curso Patinaje en Cuestas Bás/Med;Cuestas;Bás/med;3;3.0;19:30;Juan Carlos I;Parking Auditorium;Iciar;23,0;34,0;10;5;5;5;0;50,0;2025-26;Miércoles;Tarde
+654;2026-07-01;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Oscar;23,0;34,0;10;10;0;0;0;0,0;2025-26;Miércoles;Tarde
+655;2026-07-01;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Oscar;23,0;34,0;10;5;5;0;5;50,0;2025-26;Miércoles;Tarde
+656;2026-07-01;Curso Refuerzo Patinaje Experto 2;Refuerzo Adultos;Experto 2;3;3.0;20:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;23,0;34,0;14;8;6;6;0;42,9;2025-26;Miércoles;Tarde
+657;2026-07-01;Curso de Derrapes;Otros;Curso de Derrapes;3;3.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;23,0;34,0;14;1;13;10;3;92,9;2025-26;Miércoles;Tarde
+658;2026-07-02;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:30;Retiro;Paseo De Coches;Oscar;23,0;34,0;10;5;5;0;5;50,0;2025-26;Jueves;Tarde
+659;2026-07-02;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;19:30;Retiro;Paseo De Coches;Oscar;23,0;34,0;12;4;8;0;8;66,7;2025-26;Jueves;Tarde
+660;2026-07-02;Curso Refuerzo Patinaje Avanzado;Refuerzo Adultos;Avanzado;3;3.0;20:30;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;23,0;34,0;14;7;7;7;0;50,0;2025-26;Jueves;Tarde
+661;2026-07-02;Curso Refuerzo Patinaje Experto 1;Refuerzo Adultos;Experto 1;3;3.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;23,0;34,0;14;12;2;2;0;14,3;2025-26;Jueves;Tarde
+662;2026-07-04;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:00;Retiro;Paseo De Coches;Jorge;16,0;24,0;10;2;8;0;8;80,0;2025-26;Sábado;Mañana
+663;2026-07-04;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:20;Retiro;Paseo De Coches;Jorge;23,0;34,0;10;4;6;0;6;60,0;2025-26;Sábado;Mañana
+664;2026-07-04;Curso Urbano Patinaje Básico;Urbano;Básico;1;2.0;09:30;Nuevos Ministerios;Azca;Iciar;16,0;24,0;10;1;9;8;1;90,0;2025-26;Sábado;Mañana
+665;2026-07-05;Curso Urbano Patinaje Medio;Urbano;Medio;1;2.0;09:30;Nuevos Ministerios;Azca;Iciar;16,0;24,0;10;2;8;6;2;80,0;2025-26;Domingo;Mañana
+666;2026-07-11;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;11:00;Retiro;Paseo De Coches;¿?;16,0;24,0;12;7;5;2;3;41,7;2025-26;Sábado;Mañana
+667;2026-07-11;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:20;Retiro;Paseo De Coches;¿?;23,0;34,0;12;6;6;1;5;50,0;2025-26;Sábado;Mañana
+668;2026-07-11;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;10:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar;16,0;24,0;10;0;10;0;10;100,0;2025-26;Sábado;Mañana
+669;2026-07-11;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar;23,0;34,0;10;6;4;0;4;40,0;2025-26;Sábado;Mañana
+670;2026-07-11;Curso Wizard Iniciación;Otros;Curso Wizard Iniciación;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;16,0;24,0;14;8;6;6;0;42,9;2025-26;Sábado;Mañana
+671;2026-07-12;Curso Rollerdance Iniciación;Rollerdance;Iniciación;1;2.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;16,0;24,0;18;10;8;6;2;44,4;2025-26;Domingo;Tarde
+672;2026-07-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;20:30;Retiro;Paseo De Coches;Jorge;23,0;34,0;12;4;8;0;8;66,7;2025-26;Jueves;Tarde
+673;2026-07-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;19:30;Retiro;Paseo De Coches;Jorge;23,0;34,0;10;2;8;0;8;80,0;2025-26;Jueves;Tarde
+674;2026-07-16;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;3;3.0;20:30;Madrid Río;Explanada Matadero;Oscar;23,0;34,0;10;6;4;0;4;40,0;2025-26;Jueves;Tarde
+675;2026-07-16;Curso Iniciación Patinaje Niños;Niños Iniciación;;3;3.0;19:30;Madrid Río;Explanada Matadero;Oscar;23,0;34,0;10;5;5;0;5;50,0;2025-26;Jueves;Tarde
+676;2026-07-16;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;3;3.0;20:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;23,0;34,0;12;6;6;0;6;50,0;2025-26;Jueves;Tarde
+677;2026-07-16;Curso Patinaje Básico Niños;Niños Básico 1;;3;3.0;19:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;23,0;34,0;12;10;2;0;2;16,7;2025-26;Jueves;Tarde
+678;2026-07-16;Curso Tecnificación Fs. Slalom;Freestyle Slalom;Tecnificación;3;3.0;20:30;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;23,0;34,0;16;13;3;3;0;18,8;2025-26;Jueves;Tarde
+679;2026-07-16;Curso Iniciación Freestyle Slalom;Freestyle Slalom;Iniciación;3;3.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Iciar;23,0;34,0;16;8;8;6;2;50,0;2025-26;Jueves;Tarde
+680;2026-07-18;Curso Iniciación Patinaje Niños;Niños Iniciación;;2;2.0;11:00;Retiro;Paseo De Coches;Marta;16,0;24,0;10;9;1;0;1;10,0;2025-26;Sábado;Mañana
+681;2026-07-18;Curso Iniciación Patinaje Nivel 0;Iniciación Adultos Nivel 0;;2;3.0;09:20;Retiro;Paseo De Coches;Marta;23,0;34,0;10;5;5;0;5;50,0;2025-26;Sábado;Mañana
+682;2026-07-18;Curso Patinaje Básico Niños;Niños Básico 1;;2;2.0;10:40;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;16,0;24,0;12;8;4;2;2;33,3;2025-26;Sábado;Mañana
+683;2026-07-18;Curso Iniciación Patinaje Nivel 1;Iniciación Adultos Nivel 1;;2;3.0;09:00;San Sebastián de los Reyes;Pista Patinaje Dehesa;Vanesa;23,0;34,0;12;10;2;0;2;16,7;2025-26;Sábado;Mañana
+684;2026-07-20;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;20:30;Madrid Río;Explanada Matadero;David Rivas;23,0;34,0;12;7;5;3;2;41,7;2025-26;Lunes;Tarde
+685;2026-07-20;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;19:30;Madrid Río;Explanada Matadero;David Rivas;23,0;34,0;12;9;3;0;3;25,0;2025-26;Lunes;Tarde
+686;2026-07-20;Curso Refuerzo Patinaje Medio;Refuerzo Adultos;Medio;3;3.0;20:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar1-Jorge23;23,0;34,0;12;7;5;5;0;41,7;2025-26;Lunes;Tarde
+687;2026-07-20;Curso Refuerzo Patinaje Básico;Refuerzo Adultos;Básico;3;3.0;19:30;San Sebastián de los Reyes;Pista Patinaje Dehesa;Iciar1-Jorge23;23,0;34,0;12;8;4;3;1;33,3;2025-26;Lunes;Tarde
+688;2026-07-20;Curso Hockey Tecnificación;Hockey;Tecnificación;3;3.0;20:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;23,0;34,0;14;3;11;10;1;78,6;2025-26;Lunes;Tarde
+689;2026-07-20;Curso Iniciación Hockey;Hockey;Iniciación;3;3.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;23,0;34,0;14;7;7;2;5;50,0;2025-26;Lunes;Tarde
+690;2026-07-21;Curso Iniciación Patinaje Velocidad;Velocidad;Iniciación;3;3.0;20:30;Metropolitano;Parking Exterior;David Rivas;23,0;34,0;14;8;6;6;0;42,9;2025-26;Martes;Tarde
+691;2026-07-21;Curso Tecnificación Pat. Velocidad;Velocidad;Tecnificación;3;3.0;19:30;Metropolitano;Parking Exterior;David Rivas;23,0;34,0;14;5;9;8;1;64,3;2025-26;Martes;Tarde
+692;2026-07-25;Curso Iniciación Artístico;Otros;Curso Iniciación Artístico;1;2.0;09:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;16,0;24,0;14;8;6;6;0;42,9;2025-26;Sábado;Mañana
+693;2026-07-26;Curso Rollerdance Avanzado;Rollerdance;Avanzado;1;2.0;19:30;Retiro;Instalación Deportiva Retiro-Poeta;Javi;16,0;24,0;16;10;6;6;0;37,5;2025-26;Domingo;Tarde
