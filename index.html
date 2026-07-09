@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CURSOS ★ MadridPatina — Estadísticas de la sección</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Anton&family=Oswald:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 :root{
@@ -28,7 +29,7 @@ header{background:var(--rojo);color:#fff;border-bottom:10px solid var(--negro);p
 header::after{content:"";position:absolute;right:-60px;top:-60px;width:340px;height:340px;border:26px solid rgba(0,0,0,.14);border-radius:50%}
 .mast-top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:3px solid rgba(255,255,255,.4);font-family:'Oswald';text-transform:uppercase;letter-spacing:.18em;font-size:.78rem}
 .masthead{padding:34px 0 8px}
-.masthead h1{font-family:'Archivo Black';font-size:clamp(3.4rem,11vw,8.5rem);line-height:.88;text-transform:uppercase;letter-spacing:-.015em}
+.masthead h1{font-family:'Anton';font-size:clamp(5rem,16.5vw,12.75rem);line-height:.9;text-transform:uppercase;letter-spacing:0}
 .masthead h1 .knock{color:var(--negro)}
 .mast-sub{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:20px 0 26px;font-family:'Oswald';text-transform:uppercase}
 .chip{background:var(--negro);color:#fff;padding:6px 14px;font-size:.85rem;letter-spacing:.12em}
@@ -46,7 +47,7 @@ header::after{content:"";position:absolute;right:-60px;top:-60px;width:340px;hei
 /* ============ NAV SUMARIO ============ */
 nav{background:var(--papel);border-bottom:4px solid var(--negro);position:sticky;top:0;z-index:50}
 nav .wrap{display:flex;flex-wrap:wrap;gap:0}
-nav a{font-family:'Oswald';text-transform:uppercase;font-size:.8rem;letter-spacing:.1em;color:var(--tinta);text-decoration:none;padding:12px 14px;border-right:1px solid rgba(24,19,16,.2);display:flex;gap:8px;align-items:center}
+nav a{font-family:'Oswald';text-transform:uppercase;font-size:.9rem;font-weight:600;letter-spacing:.1em;color:var(--tinta);text-decoration:none;padding:12px 16px;border-right:1px solid rgba(24,19,16,.2);display:flex;gap:8px;align-items:center}
 nav a b{color:var(--rojo);font-family:'Archivo Black'}
 nav a:hover{background:var(--negro);color:#fff}
 
@@ -60,7 +61,7 @@ section{padding:58px 0 30px}
 .sec-intro strong{color:var(--rojo)}
 
 /* tarjetas y paneles */
-.panel{background:var(--papel);border:3px solid var(--negro);box-shadow:8px 8px 0 var(--negro);padding:20px;margin-bottom:26px}
+.panel{background:var(--papel);border:5px solid var(--negro);padding:20px;margin-bottom:26px}
 .panel h3{font-family:'Oswald';text-transform:uppercase;letter-spacing:.08em;font-size:1.05rem;border-bottom:3px solid var(--rojo);display:inline-block;padding-bottom:4px;margin-bottom:14px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
 .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
@@ -126,26 +127,49 @@ table.datos td.num{text-align:right;font-variant-numeric:tabular-nums}
 .notas p{max-width:860px;margin-bottom:10px;font-family:'Barlow Condensed';font-size:1rem}
 footer{background:var(--rojo);color:#fff;border-top:10px solid var(--negro);margin-top:60px;padding:30px 0;font-family:'Oswald';text-transform:uppercase;letter-spacing:.15em;font-size:.75rem}
 footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-.divider{height:26px;background:repeating-linear-gradient(90deg,var(--negro) 0 26px,var(--rojo) 26px 52px,var(--crema) 52px 60px);border-top:3px solid var(--negro);border-bottom:3px solid var(--negro)}
+.divider{height:0;border:0;border-top:5px solid var(--negro)}
+
+/* logo */
+.logo-sm{width:28px;height:28px;display:inline-block;vertical-align:middle;flex:0 0 auto}
+.mast-flex{display:flex;justify-content:space-between;align-items:center;gap:34px}
+.logo-hero{width:250px;height:250px;color:var(--crema);flex:0 0 auto;display:block;position:relative;z-index:2}
+@media(max-width:860px){.logo-hero{width:150px;height:150px}}
+@media(max-width:560px){.logo-hero{display:none}}
 </style>
 </head>
 <body>
 
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="mplogo" viewBox="0 0 1000 1000">
+    <g fill="currentColor">
+      <circle cx="472" cy="253" r="96"/>
+      <polygon points="160,373 600,370 786,777 547,634 366,789 387,523"/>
+      <circle cx="393" cy="809" r="26"/><circle cx="437" cy="779" r="26"/><circle cx="480" cy="749" r="26"/>
+      <circle cx="764" cy="650" r="27"/><circle cx="796" cy="713" r="27"/><circle cx="817" cy="777" r="27"/>
+    </g>
+  </symbol>
+</svg>
+
 <header>
   <div class="wrap mast-top">
-    <span>MadridPatina ★ Club de patinaje</span>
+    <span style="display:flex;align-items:center;gap:10px"><svg class="logo-sm" style="color:#fff"><use href="#mplogo"/></svg> Asociación MadridPatina</span>
     <span>Sección de cursos · Informe de datos</span>
     <span>Ed. 09 · Julio 2026</span>
   </div>
   <div class="wrap masthead">
-    <h1>CUR<span class="knock">SOS</span><span class="star w">★</span></h1>
-    <div class="mast-sub">
-      <span class="chip">2012 → 2026</span>
-      <span class="chip inv">14 temporadas registradas</span>
-      <span class="chip">Histórico completo desde 2024</span>
+    <div class="mast-flex">
+      <div>
+        <h1>CUR<span class="knock">SOS</span></h1>
+        <div class="mast-sub">
+          <span class="chip">2012 → 2026</span>
+          <span class="chip inv">14 temporadas registradas</span>
+          <span class="chip">Histórico completo desde 2024</span>
+        </div>
+        <p class="mast-claim">Todos los datos de la sección de cursos del club: alumnos, ocupación, zonas,
+        monitores, precios y evolución por temporada. Con comparador por tipo de curso y perfiles de cara a la temporada 2026-27.</p>
+      </div>
+      <svg class="logo-hero"><use href="#mplogo"/></svg>
     </div>
-    <p class="mast-claim">Todos los datos de la sección de cursos del club: alumnos, ocupación, zonas,
-    monitores, precios y evolución por temporada. Con comparador por tipo de curso y perfiles de cara a la temporada 2026-27.</p>
   </div>
   <div class="sumario">
     <div class="wrap">
@@ -368,7 +392,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 
 <footer>
   <div class="wrap">
-    <span>★ MadridPatina — Sección de cursos</span>
+    <span style="display:flex;align-items:center;gap:10px"><svg class="logo-sm" style="color:#fff"><use href="#mplogo"/></svg> MadridPatina — Sección de cursos</span>
     <span>693 cursos · 3.522 alistados · 2012-2026</span>
     <span>Informe generado el 09.07.2026</span>
   </div>
